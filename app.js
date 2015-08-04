@@ -9,7 +9,7 @@ var split = require('split');
 var bbcms = require("./index");
 var bbm = require('blue-button-model');
 
-var istream = fs.createReadStream(__dirname + '/test/fixtures/sample.txt', 'utf-8');
+var istream = fs.createReadStream(__dirname + '/test/fixtures/va-ascii.txt', 'utf-8');
 
 istream.pipe(split())
     .pipe(new bbcms.CmsFile2Object())

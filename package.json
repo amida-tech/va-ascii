@@ -30,11 +30,12 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "split": "~1.0.0",
-    "moment": "~2.10.2",
-    "underscore": "~1.8.3",
+    "async": "^1.4.0",
     "lodash": "~3.10.0",
-    "node-uuid": "~1.4.3"
+    "moment": "~2.10.2",
+    "node-uuid": "~1.4.3",
+    "split": "~1.0.0",
+    "underscore": "~1.8.3"
   },
   "devDependencies": {
     "blue-button-model": "1.5.0-beta.3",

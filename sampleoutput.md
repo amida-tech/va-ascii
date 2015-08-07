@@ -32,10 +32,10 @@ Below is sample output... will update this with each commit:
     }],
     "raw": ["--------------- MY HEALTHEVET PERSONAL INFORMATION REPORT ---------------"],
     "processed": {
-        "match": ["(v12.10)", "12.10"],
+        "bbversion": "12.10",
         "requestdate": "05 Nov 2014 @ 0827",
-        "requestname": "MHVTESTVETERAN, ONE A         ",
-        "requestdob": " 01 Mar 1948"
+        "requestname": "MHVTESTVETERAN, ONE A",
+        "requestdob": "01 Mar 1948"
     },
     "found": true
 }, {
@@ -122,11 +122,19 @@ Below is sample output... will update this with each commit:
         "found": true,
         "processed": {}
     }, {
+        "name": "workphoneext",
+        "pattern": {},
+        "multiple": false,
+        "model": [],
+        "raw": ["Work Phone Number:   000-555-1000  Extension:"],
+        "found": true,
+        "processed": {}
+    }, {
         "name": "generic",
         "pattern": {},
         "multiple": true,
         "model": [],
-        "raw": ["Source:  Self-Entered", "First Name:          ONE", "Middle Initial:      A", "Last Name:           MHVTESTVETERAN", "Suffix:", "Alias:               MHVVET", "Relationship to VA:  Patient, Veteran", "Date of Birth:       01 Mar 1948", "Marital Status:      Married", "Current Occupation:  Truck Driver", "Mailing or Destination Address:          123 Anywhere Road", "Mailing or Destination Address2:         Apt. 123", "Mailing or Destination City:             Anywhere", "Mailing or Destination State:            DC", "Mailing or Destination Country:          United States", "Mailing or Destination Province:", "Mailing or Destination Zip/Postal Code:  00000", "Home Phone Number:  000-555-2123", "Work Phone Number:  000-555-4100", "Pager Number:       000-555-2020", "Cell Phone Number:  000-555-0303", "FAX Number:         000-555-4110", "Email Address:                mhvveteran@emailaddress.com", "Preferred Method of Contact:  Email", "Contact First Name:  Two", "Contact Last Name:   MHVVeteran", "Relationship:", "Home Phone Number:   000-555-2121", "Work Phone Number:   000-555-1000  Extension:", "Cell Phone Number:   000-555-1855", "Address Line 1:      123 Anywhere Road", "Address Line 2:      Apt 123", "City:                Anywhere", "State:               DC", "Country:             United States", "Province:", "Zip/Post Code:       00000", "Email Address:       mhvveterantwo@emailaddress.com", "Contact First Name:  Three", "Contact Last Name:   MHVVeteran", "Relationship:", "Home Phone Number:   000-555-2339", "Work Phone Number:   000-555-5000  Extension:", "Cell Phone Number:   000-555-1458", "Address Line 1:      123 Anwhere Road", "Address Line 2:      Apt 123", "City:                Anywhere", "State:               DC", "Country:             United States", "Province:", "Zip/Post Code:       00000", "Email Address:       mhvveteranthree@emailaddress.com"],
+        "raw": ["Source:  Self-Entered", "First Name:          ONE", "Middle Initial:      A", "Last Name:           MHVTESTVETERAN", "Suffix:", "Alias:               MHVVET", "Relationship to VA:  Patient, Veteran", "Date of Birth:       01 Mar 1948", "Marital Status:      Married", "Current Occupation:  Truck Driver", "Mailing or Destination Address:          123 Anywhere Road", "Mailing or Destination Address2:         Apt. 123", "Mailing or Destination City:             Anywhere", "Mailing or Destination State:            DC", "Mailing or Destination Country:          United States", "Mailing or Destination Province:", "Mailing or Destination Zip/Postal Code:  00000", "Home Phone Number:  000-555-2123", "Work Phone Number:  000-555-4100", "Pager Number:       000-555-2020", "Cell Phone Number:  000-555-0303", "FAX Number:         000-555-4110", "Email Address:                mhvveteran@emailaddress.com", "Preferred Method of Contact:  Email", "Contact First Name:  Two", "Contact Last Name:   MHVVeteran", "Relationship:", "Home Phone Number:   000-555-2121", "Cell Phone Number:   000-555-1855", "Address Line 1:      123 Anywhere Road", "Address Line 2:      Apt 123", "City:                Anywhere", "State:               DC", "Country:             United States", "Province:", "Zip/Post Code:       00000", "Email Address:       mhvveterantwo@emailaddress.com", "Contact First Name:  Three", "Contact Last Name:   MHVVeteran", "Relationship:", "Home Phone Number:   000-555-2339", "Work Phone Number:   000-555-5000  Extension:", "Cell Phone Number:   000-555-1458", "Address Line 1:      123 Anwhere Road", "Address Line 2:      Apt 123", "City:                Anywhere", "State:               DC", "Country:             United States", "Province:", "Zip/Post Code:       00000", "Email Address:       mhvveteranthree@emailaddress.com"],
         "found": true,
         "processed": {}
     }],
@@ -164,7 +172,8 @@ Below is sample output... will update this with each commit:
             "contact_last_name": "MHVVeteran",
             "relationship": "",
             "home_phone_number": "000-555-2121",
-            "work_phone_number:___000-555-1000__extension": "",
+            "work_phone_number": "000-555-1000",
+            "work_phone_ext": "",
             "cell_phone_number": "000-555-1855",
             "address_line_1": "123 Anywhere Road",
             "address_line_2": "Apt 123",

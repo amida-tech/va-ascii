@@ -1,7 +1,7 @@
 cms-fhir
 =================
 
-Blue Button CMS to FHIR Parser
+Blue Button VA-ASCII to FHIR Parser
 
 Generate FHIR JSON data from CMS files. 
 

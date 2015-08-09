@@ -16,7 +16,7 @@ var istream = fs.createReadStream(__dirname + '/fixtures/sample.txt', 'ascii');
 
 //convert the stream into FHIR model
         istream.pipe(split()) // split into the rows
-            .pipe(new bbcms.CmsFile2Object()) // convert into intermediate object format
+            .pipe(new bbcms.VaAsciiFile2Object()) // convert into intermediate object format
             // convetr to a fhir bundle, remove a parameter if you don't want a transaction bundle
             .pipe(new bbcms.IntObjToFhirStream("http://localhost:8080/fhir/base")) 
             .on('data', function (data) {

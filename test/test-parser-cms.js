@@ -26,7 +26,7 @@ describe('parser.js', function () {
             done(e);
         } );*/
 
-        istream.pipe(split()).pipe(new bbcms.CmsFile2Object())
+        istream.pipe(split()).pipe(new bbcms.VaAsciiFile2Object())
             .on('data', function (data) {
                 console.log(JSON.stringify(data, null, '    '));
             })
@@ -65,7 +65,7 @@ describe('parser.js', function () {
         } );*/
 
         istream.pipe(split())
-            .pipe(new bbcms.CmsFile2Object())
+            .pipe(new bbcms.VaAsciiFile2Object())
             .pipe(new bbcms.IntObjToFhirStream())
             .on('data', function (data) {
                 console.log(JSON.stringify(data, null, '    '));

@@ -12,7 +12,7 @@ var bbm = require('blue-button-model');
 var istream = fs.createReadStream(__dirname + '/test/fixtures/va-ascii.txt', 'utf-8');
 
 istream.pipe(split())
-    .pipe(new bbcms.CmsFile2Object())
+    .pipe(new bbcms.VaAsciiFile2Object())
     .pipe(new bbcms.IntObjToFhirStream("http://localhost:8080/fhir/base"))
     .on('data', function (data) {
         console.log(JSON.stringify(data, null, '  '));

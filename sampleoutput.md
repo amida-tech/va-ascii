@@ -707,7 +707,7 @@ Below is sample output... will update this with each commit:
             "allergy_type": "DRUG",
             "va_drug_class": "NON-OPIOID ANALGESICS",
             "observed/historical": "HISTORICAL",
-            "comments": "gradually worsening difficulty emptying bladder --"
+            "comments": "gradually worsening difficulty emptying bladder -- might try tramadol again cautiously because pt. reported pain relief"
         }, {
             "allergy_name": "TERAZOSIN",
             "location": "PORTLAND, OREGON VA MEDICAL CENTER",
@@ -734,7 +734,7 @@ Below is sample output... will update this with each commit:
             "allergy_type": "DRUG",
             "va_drug_class": "SKELETAL MUSCLE RELAXANTS",
             "observed/historical": "OBSERVED",
-            "comments": "Drowsiness and hallucinations while on methocarbamol"
+            "comments": "Drowsiness and hallucinations while on methocarbamol plus carbamazepine and other sedatives Remember to share all information about your allergies with your health care team.  If you have any questions about your information please visit the FAQs or contact your VA health care team. Allergy information."
         }]
     },
     "found": true

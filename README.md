@@ -1,9 +1,9 @@
-cms-fhir
+va-ascii
 =================
 
 Blue Button VA-ASCII to FHIR Parser
 
-Generate FHIR JSON data from CMS files. 
+Generate FHIR JSON data from VA files. 
 
 ## Usage
 
@@ -159,7 +159,7 @@ getting:
 
 ## Example app
 
-Example app is <a href="https://github.com/amida-tech/cms-fhir/blob/master/app.js">here</a>
+Example app is <a href="https://github.com/amida-tech/va-ascii/blob/master/app.js">here</a>
 
 ## License
 

@@ -1303,9 +1303,88 @@ Below is sample output... will update this with each commit:
     "name": "va_immunizations",
     "pattern": {},
     "multiple": false,
-    "model": [],
+    "model": [{
+        "name": "immunizationname",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Immunization:   INFLUENZA-H1N1-09, NOVEL (PANDEMIC)", "Immunization:   INFLUENZA-H1N1-09, NOVEL (PANDEMIC)", "Immunization:   PNEUMOCOCCAL", "Immunization:   PNEUMOVAX POLYSACCHARIDE PPSV23", "Immunization:   TETANUS DIPTHERIA (TD-ADULT)"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "summary",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["INFLUENZA-H1N1-09, NOVEL (PANDEMIC)                    07 Dec 2012 @ 1155", "TETANUS DIPTHERIA (TD-ADULT)                           07 Dec 2012 @ 1155", "Date Received:  07 Dec 2012 @ 1155", "Date Received:  07 Dec 2012 @ 1155"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "immunization",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Novartis;#10127605;Feb 2010", "Date Received:  01 Oct 2012 @ 1200", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       --", "Date Received:  06 Mar 2011 @ 0900", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Date Received:  06 Mar 2011 @ 0900", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       1234567"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "generic",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Source: VA", "Last Updated: 05 Nov 2014 @ 0813", "Sorted By: Date Received(Descending)", "Sorted By: Immunization Name, then Date (Descending)", "Reaction Key: * = Check information in your VA Allergies and Adverse Reactions"],
+        "found": true,
+        "processed": {}
+    }],
     "raw": ["----------------------------- VA IMMUNIZATIONS --------------------------"],
-    "processed": {},
+    "processed": {
+        "source": "VA",
+        "last_updated": "05 Nov 2014 @ 0813",
+        "sorted_by": "Immunization Name, then Date (Descending)",
+        "summary": [{
+            "immunization": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "date": "07 Dec 2012 @ 1155"
+        }, {
+            "immunization": "TETANUS DIPTHERIA (TD-ADULT)",
+            "date": "07 Dec 2012 @ 1155"
+        }, {
+            "immunization": "Date Received:",
+            "date": "07 Dec 2012 @ 1155"
+        }, {
+            "immunization": "Date Received:",
+            "date": "07 Dec 2012 @ 1155"
+        }],
+        "immunizations": [{
+            "immunization_name": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "location": "PORTLAND (OR) VAMC",
+            "reaction": "None Reported",
+            "comments": "Novartis;#10127605;Feb 2010"
+        }, {
+            "immunization_name": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "date_received": "01 Oct 2012 @ 1200",
+            "location": "PORTLAND (OR) VAMC",
+            "reaction": "None Reported",
+            "comments": "--"
+        }, {
+            "immunization_name": "PNEUMOCOCCAL",
+            "date_received": "06 Mar 2011 @ 0900",
+            "location": "PORTLAND (OR) VAMC",
+            "reaction": "None Reported",
+            "comments": "Inj type: IM, Site:Lt Deltoid"
+        }, {
+            "immunization_name": "PNEUMOVAX POLYSACCHARIDE PPSV23",
+            "date_received": "06 Mar 2011 @ 0900",
+            "location": "PORTLAND (OR) VAMC",
+            "reaction": "None Reported",
+            "comments": "Inj type: IM, Site:Lt Deltoid"
+        }, {
+            "immunization_name": "TETANUS DIPTHERIA (TD-ADULT)",
+            "location": "PORTLAND (OR) VAMC",
+            "reaction": "None Reported",
+            "comments": "1234567",
+            "reaction_key": "= Check information in your VA Allergies and Adverse Reactions"
+        }]
+    },
     "found": true
 }, {
     "name": "self_immunizations",

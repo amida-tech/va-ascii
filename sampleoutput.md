@@ -1196,9 +1196,70 @@ Below is sample output... will update this with each commit:
     "name": "self_medications",
     "pattern": {},
     "multiple": false,
-    "model": [],
+    "model": [{
+        "name": "medicationname",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Category: OTC", "Category: Supplement"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "medication start stop",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Start Date: 01 Feb 2010                         Stop Date: 21 Feb 2010", "Start Date: 18 Mar 2010                         Stop Date:"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "medication pharmacy",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Pharmacy Name: My Local Drugstore               Pharmacy Phone: 000-010-0000", "Pharmacy Name: My Local Drugstore               Pharmacy Phone: 000-010-0000"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "generic",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Source: Self-Entered", "Drug Name: Cough Medicine", "Prescription Number:", "Strength: 1000mg", "Dose: 2 TBS", "Frequency: morning and night", "Reason for taking: Cough was keeping me up at night", "Comments: Cleared up after a few weeks", "Drug Name: Multi-vitamin", "Prescription Number:", "Strength: 100% RDA", "Dose: 1 tablet daily", "Frequency: morning", "Reason for taking: To stay healthy", "Comments: Feeling more energetic since I started taking vitamin"],
+        "found": true,
+        "processed": {}
+    }],
     "raw": ["----------------- SELF REPORTED MEDICATIONS AND SUPPLEMENTS -------------"],
-    "processed": {},
+    "processed": {
+        "source": "Self-Entered",
+        "medications": [{
+            "medication_category": "OTC",
+            "drug_name": "Cough Medicine",
+            "prescription_number": "",
+            "strength": "1000mg",
+            "dose": "2 TBS",
+            "frequency": "morning and night",
+            "start_date": "01 Feb 2010",
+            "stop_date": "21 Feb 2010",
+            "pharmacy_name": "My Local Drugstore",
+            "pharmacy_phone": "000-010-0000",
+            "reason_for_taking": "Cough was keeping me up at night",
+            "comments": "Cleared up after a few weeks"
+        }, {
+            "medication_category": "Supplement",
+            "drug_name": "Multi-vitamin",
+            "prescription_number": "",
+            "strength": "100% RDA",
+            "dose": "1 tablet daily",
+            "frequency": "morning",
+            "start_date": "18 Mar 2010",
+            "stop_date": "",
+            "pharmacy_name": "My Local Drugstore",
+            "pharmacy_phone": "000-010-0000",
+            "reason_for_taking": "To stay healthy",
+            "comments": "Feeling more energetic since I started taking vitamin"
+        }]
+    },
     "found": true
 }, {
     "name": "va_problems",

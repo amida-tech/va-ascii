@@ -2633,9 +2633,65 @@ Below is sample output... will update this with each commit:
     "name": "self_labs",
     "pattern": {},
     "multiple": false,
-    "model": [],
+    "model": [{
+        "name": "testname",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Test Name: Blood Test", "Test Name: Colonoscopy", "Test Name: CBC"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "test results",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Results: Was not able to donate blood because iron was low", "Results: No new polyps", "Results: GLUCOSE 144"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "generic",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Source: Self-Entered", "Date: 06 Jun 2010", "Location performed: Community Center", "Provider: Red Cross Blood Drive", "Comments: Will ask doctor at next visit", "Date: 01 Jul 2010", "Location performed: VAMC", "Provider: Provider One", "Comments: Keep high fiber diet", "Date: 08 Jan 2013", "Location performed: Non VA Location", "Provider: Dr. Smith", "Comments: This is an old lab test. I wanted the report in my record"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "test results details",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["K   \t4.1", "CO2 \t26.9", "CA \t9.3", "AST\t31", "ALT\t35", "ALK\t86"],
+        "found": true,
+        "processed": {}
+    }],
     "raw": ["-------------------- SELF REPORTED LABS AND TESTS -----------------------"],
-    "processed": {},
+    "processed": {
+        "source": "Self-Entered",
+        "tests": [{
+            "medication_name": "Blood Test",
+            "date": "06 Jun 2010",
+            "location_performed": "Community Center",
+            "provider": "Red Cross Blood Drive",
+            "results": ["Was not able to donate blood because iron was low"],
+            "comments": "Will ask doctor at next visit"
+        }, {
+            "medication_name": "Colonoscopy",
+            "date": "01 Jul 2010",
+            "location_performed": "VAMC",
+            "provider": "Provider One",
+            "results": ["No new polyps"],
+            "comments": "Keep high fiber diet"
+        }, {
+            "medication_name": "CBC",
+            "date": "08 Jan 2013",
+            "location_performed": "Non VA Location",
+            "provider": "Dr. Smith",
+            "results": ["GLUCOSE 144", "K   \t4.1", "CO2 \t26.9", "CA \t9.3", "AST\t31", "ALT\t35", "ALK\t86"],
+            "comments": "This is an old lab test. I wanted the report in my record"
+        }]
+    },
     "found": true
 }, {
     "name": "va_vitals",

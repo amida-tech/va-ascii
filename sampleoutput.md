@@ -1316,7 +1316,7 @@ Below is sample output... will update this with each commit:
         "pattern": {},
         "multiple": true,
         "model": [],
-        "raw": ["INFLUENZA-H1N1-09, NOVEL (PANDEMIC)                    07 Dec 2012 @ 1155", "TETANUS DIPTHERIA (TD-ADULT)                           07 Dec 2012 @ 1155", "Date Received:  07 Dec 2012 @ 1155", "Date Received:  07 Dec 2012 @ 1155"],
+        "raw": ["INFLUENZA-H1N1-09, NOVEL (PANDEMIC)                    07 Dec 2012 @ 1155", "TETANUS DIPTHERIA (TD-ADULT)                           07 Dec 2012 @ 1155", "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)                    01 Oct 2012 @ 1200", "PNEUMOCOCCAL                                           06 Mar 2011 @ 0900", "PNEUMOVAX POLYSACCHARIDE PPSV23                        06 Mar 2011 @ 0900", "Date Received:  07 Dec 2012 @ 1155", "Date Received:  01 Oct 2012 @ 1200", "Date Received:  06 Mar 2011 @ 0900", "Date Received:  06 Mar 2011 @ 0900", "Date Received:  07 Dec 2012 @ 1155"],
         "found": true,
         "processed": {}
     }, {
@@ -1324,7 +1324,7 @@ Below is sample output... will update this with each commit:
         "pattern": {},
         "multiple": true,
         "model": [],
-        "raw": ["Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Novartis;#10127605;Feb 2010", "Date Received:  01 Oct 2012 @ 1200", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       --", "Date Received:  06 Mar 2011 @ 0900", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Date Received:  06 Mar 2011 @ 0900", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       1234567"],
+        "raw": ["Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Novartis;#10127605;Feb 2010", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       --", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       Inj type: IM, Site:Lt Deltoid", "Location:       PORTLAND (OR) VAMC", "Reaction:*      None Reported", "Comments:       1234567"],
         "found": true,
         "processed": {}
     }, {
@@ -1348,8 +1348,26 @@ Below is sample output... will update this with each commit:
             "immunization": "TETANUS DIPTHERIA (TD-ADULT)",
             "date": "07 Dec 2012 @ 1155"
         }, {
+            "immunization": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "date": "01 Oct 2012 @ 1200"
+        }, {
+            "immunization": "PNEUMOCOCCAL",
+            "date": "06 Mar 2011 @ 0900"
+        }, {
+            "immunization": "PNEUMOVAX POLYSACCHARIDE PPSV23",
+            "date": "06 Mar 2011 @ 0900"
+        }, {
             "immunization": "Date Received:",
             "date": "07 Dec 2012 @ 1155"
+        }, {
+            "immunization": "Date Received:",
+            "date": "01 Oct 2012 @ 1200"
+        }, {
+            "immunization": "Date Received:",
+            "date": "06 Mar 2011 @ 0900"
+        }, {
+            "immunization": "Date Received:",
+            "date": "06 Mar 2011 @ 0900"
         }, {
             "immunization": "Date Received:",
             "date": "07 Dec 2012 @ 1155"
@@ -1361,19 +1379,16 @@ Below is sample output... will update this with each commit:
             "comments": "Novartis;#10127605;Feb 2010"
         }, {
             "immunization_name": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
-            "date_received": "01 Oct 2012 @ 1200",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "--"
         }, {
             "immunization_name": "PNEUMOCOCCAL",
-            "date_received": "06 Mar 2011 @ 0900",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "Inj type: IM, Site:Lt Deltoid"
         }, {
             "immunization_name": "PNEUMOVAX POLYSACCHARIDE PPSV23",
-            "date_received": "06 Mar 2011 @ 0900",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "Inj type: IM, Site:Lt Deltoid"
@@ -1422,9 +1437,223 @@ Below is sample output... will update this with each commit:
     "name": "va_vitals",
     "pattern": {},
     "multiple": false,
-    "model": [],
+    "model": [{
+        "name": "vitalname",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Vital Sign:           Blood Pressure", "Vital Sign:           Blood Pressure", "Vital Sign:           Blood Pressure", "Vital Sign:           Blood Pressure", "Vital Sign:           Blood Pressure", "Vital Sign:           Temperature", "Vital Sign:           Temperature", "Vital Sign:           Circumference/Girth", "Vital Sign:           Height", "Vital Sign:           Height", "Vital Sign:           Height", "Vital Sign:           Height", "Vital Sign:           Pain Level", "Vital Sign:           Pain Level", "Vital Sign:           Pain Level", "Vital Sign:           Pain Level", "Vital Sign:           Pain Level", "Vital Sign:           Pulse Oximetry", "Vital Sign:           Pulse Rate", "Vital Sign:           Pulse Rate", "Vital Sign:           Respiration", "Vital Sign:           Respiration", "Vital Sign:           Weight", "Vital Sign:           Weight", "Vital Sign:           Weight", "Vital Sign:           Weight"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "summary",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Blood Pressure                 190/70 mm[Hg]          07 Jan 2013 @ 1527", "Pulse Rate                     88 /min                10 Dec 2012 @ 0924", "Respiration                    16 /min                10 Dec 2012 @ 0924", "Temperature                    98.5 F                 10 Dec 2012 @ 0924", "Pain Level                     3                      07 Jan 2013 @ 1527", "Height                         70 in                  10 Dec 2012 @ 0924", "Weight                         325 lb                 10 Dec 2012 @ 0924"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "generic",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Source: VA", "Last Updated: 05 Nov 2014 @ 0813", "Sorted By: Type of Vital Sign or Health Reading, then Date/Time", "Measurement:          190/70 mm[Hg]", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Jan 2013 @ 1527", "Measurement:          200/120 mm[Hg]", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          190/120 mm[Hg]", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Dec 2012 @ 1201", "Measurement:          150/70 mm[Hg]", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          155/92 mm[Hg]", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  06 Jun 2011 @ 1247", "Measurement:          98.5 F", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          101.3 F", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          50 in", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          70 in", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          70 in", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Dec 2012 @ 1201", "Measurement:          70 in", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          64 in", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  06 Jun 2011 @ 1237", "Measurement:          3", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Jan 2013 @ 1527", "Measurement:          8", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          7", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Dec 2012 @ 1201", "Measurement:          6", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          1", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  06 Jun 2011 @ 1247", "Measurement:          98 %", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          88 /min", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          120 /min", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          16 /min", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          20 /min", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          325 lb", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  10 Dec 2012 @ 0924", "Measurement:          350 lb", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  07 Dec 2012 @ 1201", "Measurement:          310 lb", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  11 Nov 2012 @ 0900", "Measurement:          301 lb", "Comments:             --", "Location:             PORTLAND, OREGON VA MEDICAL CENTER", "Date/Time Collected:  06 Jun 2011 @ 1237"],
+        "found": true,
+        "processed": {}
+    }],
     "raw": ["------------------------ VA VITALS AND READINGS -------------------------"],
-    "processed": {},
+    "processed": {
+        "source": "VA",
+        "last_updated": "05 Nov 2014 @ 0813",
+        "summary": [{
+            "vital_sign": "Blood Pressure",
+            "reading": "190/70 mm[Hg]",
+            "date": "07 Jan 2013 @ 1527"
+        }, {
+            "vital_sign": "Pulse Rate",
+            "reading": "88 /min",
+            "date": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Respiration",
+            "reading": "16 /min",
+            "date": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Temperature",
+            "reading": "98.5 F",
+            "date": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Pain Level",
+            "reading": "3",
+            "date": "07 Jan 2013 @ 1527"
+        }, {
+            "vital_sign": "Height",
+            "reading": "70 in",
+            "date": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Weight",
+            "reading": "325 lb",
+            "date": "10 Dec 2012 @ 0924"
+        }],
+        "sorted_by": "Type of Vital Sign or Health Reading, then Date/Time",
+        "vitals": [{
+            "vital_sign": "Blood Pressure",
+            "measurement": "190/70 mm[Hg]",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Jan 2013 @ 1527"
+        }, {
+            "vital_sign": "Blood Pressure",
+            "measurement": "200/120 mm[Hg]",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Blood Pressure",
+            "measurement": "190/120 mm[Hg]",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Dec 2012 @ 1201"
+        }, {
+            "vital_sign": "Blood Pressure",
+            "measurement": "150/70 mm[Hg]",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Blood Pressure",
+            "measurement": "155/92 mm[Hg]",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "06 Jun 2011 @ 1247"
+        }, {
+            "vital_sign": "Temperature",
+            "measurement": "98.5 F",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Temperature",
+            "measurement": "101.3 F",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Circumference/Girth",
+            "measurement": "50 in",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Height",
+            "measurement": "70 in",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Height",
+            "measurement": "70 in",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Dec 2012 @ 1201"
+        }, {
+            "vital_sign": "Height",
+            "measurement": "70 in",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Height",
+            "measurement": "64 in",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "06 Jun 2011 @ 1237"
+        }, {
+            "vital_sign": "Pain Level",
+            "measurement": "3",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Jan 2013 @ 1527"
+        }, {
+            "vital_sign": "Pain Level",
+            "measurement": "8",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Pain Level",
+            "measurement": "7",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Dec 2012 @ 1201"
+        }, {
+            "vital_sign": "Pain Level",
+            "measurement": "6",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Pain Level",
+            "measurement": "1",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "06 Jun 2011 @ 1247"
+        }, {
+            "vital_sign": "Pulse Oximetry",
+            "measurement": "98 %",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Pulse Rate",
+            "measurement": "88 /min",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Pulse Rate",
+            "measurement": "120 /min",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Respiration",
+            "measurement": "16 /min",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Respiration",
+            "measurement": "20 /min",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Weight",
+            "measurement": "325 lb",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "10 Dec 2012 @ 0924"
+        }, {
+            "vital_sign": "Weight",
+            "measurement": "350 lb",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "07 Dec 2012 @ 1201"
+        }, {
+            "vital_sign": "Weight",
+            "measurement": "310 lb",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "11 Nov 2012 @ 0900"
+        }, {
+            "vital_sign": "Weight",
+            "measurement": "301 lb",
+            "comments": "--",
+            "location": "PORTLAND, OREGON VA MEDICAL CENTER",
+            "date/time_collected": "06 Jun 2011 @ 1237"
+        }]
+    },
     "found": true
 }, {
     "name": "self_vitals",
@@ -1506,4 +1735,5 @@ Below is sample output... will update this with each commit:
     "processed": {},
     "found": true
 }]
+
 ```

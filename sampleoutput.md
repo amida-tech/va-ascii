@@ -2919,9 +2919,205 @@ Below is sample output... will update this with each commit:
     "name": "self_vitals",
     "pattern": {},
     "multiple": false,
-    "model": [],
+    "model": [{
+        "name": "vitalsname",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Measurement Type: Blood pressure", "Measurement Type: Blood pressure", "Measurement Type: Blood pressure", "Measurement Type: Blood pressure", "Measurement Type: Heart rate", "Measurement Type: Heart rate", "Measurement Type: Heart rate", "Measurement Type: Body weight", "Measurement Type: Body weight", "Measurement Type: Body weight", "Measurement Type: Body weight", "Measurement Type: Body weight", "Measurement Type: Body temperature", "Measurement Type: Body temperature", "Measurement Type: Body temperature", "Measurement Type: Pain", "Measurement Type: Pain", "Measurement Type: Pain", "Measurement Type: Blood sugar", "Measurement Type: Blood sugar", "Measurement Type: Blood sugar", "Measurement Type: INR"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "measurement comments",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Comments: BP taken lying down", "Comments: BP taken standing.  PB continues at goal.  Doctor says to continue BP", "Comments: Did not sleep well last night. Took a long nap this afternoon", "Comments: Feeling fine", "Comments: Started taking Beta-Blockers after visit with physician", "Comments: Feel Fine", "Comments: Feel OK", "Comments: Talk to provider about weight management program at next visit", "Comments: Lost a few pounds and feel better.  Walking daily", "Comments: still walking when I have time off from work", "Comments: I can feel all those Christmas cookies I ate", "Comments: Took a long walk with the dog today", "Comments: I wasn't feeling well but temperature is normal", "Comments: Not sure if this ear themo is working or if I am doing something", "Comments: Feel Fine", "Comments: Lower back pain - took 1 Ibuprofen with food for pain", "Comments: Feet are sore from the long walk I took with the Dog today", "Comments: General aches", "Comments: BS taken before meal", "Comments: I just ate. Need to leave the ice cream alone", "Comments: Feeling good!", "Comments: PT Only 9.6"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "generic",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Source: Self-Entered", "Date: 02 Aug 2010", "Time: 1720", "Systolic: 130", "Diastolic: 76", "Date: 02 Aug 2010", "Time: 1730", "Systolic: 132", "Diastolic: 76", "Date: 06 Jan 2013", "Time: 1940", "Systolic: 126", "Diastolic: 82", "Date: 07 Jan 2013", "Time: 2359", "Systolic: 132", "Diastolic: 76", "Date: 02 Jun 2010", "Time: 1720", "Heart Rate: 160", "Date: 06 Jan 2013", "Time: 1900", "Heart Rate: 86", "Date: 07 Jan 2013", "Time: 2359", "Heart Rate: 77", "Date: 02 Apr 2010", "Time: 1720", "Body Weight: 246", "Measure: Pounds", "Date: 02 May 2010", "Time: 1720", "Body Weight: 244", "Measure: Pounds", "Date: 02 Jun 2010", "Time: 1720", "Body Weight: 242", "Measure: Pounds", "Date: 06 Jan 2013", "Time: 1900", "Body Weight: 244", "Measure: Pounds", "Date: 07 Jan 2013", "Time: 2359", "Body Weight: 242", "Measure: Pounds", "Date: 02 Mar 2010", "Time: 1720", "Body temperature: 98.5", "Measure: Fahrenheit", "Method: Mouth", "Date: 06 Jan 2013", "Time: 1900", "Body temperature: 98.3", "Measure: Fahrenheit", "Method: Mouth", "Date: 07 Jan 2013", "Time: 2359", "Body temperature: 98.1", "Measure: Fahrenheit", "Method: Mouth", "Date: 02 Jan 2010", "Time: 1720", "Pain Level: 7", "Date: 06 Jan 2013", "Time: 1900", "Pain Level: 4", "Date: 07 Jan 2013", "Time: 2359", "Pain Level: 3", "Date: 02 Jan 2010", "Time: 1720", "Method: Sterile Lancet", "Blood sugar count: 166", "Date: 06 Jan 2013", "Time: 1900", "Method: Sterile Lancet", "Blood sugar count: 174", "Date: 07 Jan 2013", "Time: 2359", "Method: Sterile Lancet", "Blood sugar count: 141", "Date: 08 Jan 2013", "Time: 2359", "INR value: .8", "Target range: No Target", "Location: Non VA Provider", "Provider: Dr. Smith"],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "skip",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "===========================================================================", "==========================================================================="],
+        "found": true,
+        "processed": {}
+    }, {
+        "name": "measurement comments",
+        "pattern": {},
+        "multiple": true,
+        "model": [],
+        "raw": ["Remember to share your self entered information with your VA health care team.", "medications as directed", "work...", "PTT only 13.3"],
+        "found": true,
+        "processed": {}
+    }],
     "raw": ["-------------------- SELF REPORTED VITALS AND READINGS ------------------"],
-    "processed": {},
+    "processed": {
+        "source": "Self-Entered",
+        "vitals": [{
+            "measurement_type": "Blood pressure",
+            "date": "02 Aug 2010",
+            "time": "1720",
+            "systolic": "130",
+            "diastolic": "76",
+            "comments": ["BP taken lying down"]
+        }, {
+            "measurement_type": "Blood pressure",
+            "date": "02 Aug 2010",
+            "time": "1730",
+            "systolic": "132",
+            "diastolic": "76",
+            "comments": ["BP taken standing.  PB continues at goal.  Doctor says to continue BP", "medications as directed"]
+        }, {
+            "measurement_type": "Blood pressure",
+            "date": "06 Jan 2013",
+            "time": "1940",
+            "systolic": "126",
+            "diastolic": "82",
+            "comments": ["Did not sleep well last night. Took a long nap this afternoon"]
+        }, {
+            "measurement_type": "Blood pressure",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "systolic": "132",
+            "diastolic": "76",
+            "comments": ["Feeling fine"]
+        }, {
+            "measurement_type": "Heart rate",
+            "date": "02 Jun 2010",
+            "time": "1720",
+            "heart_rate": "160",
+            "comments": ["Started taking Beta-Blockers after visit with physician"]
+        }, {
+            "measurement_type": "Heart rate",
+            "date": "06 Jan 2013",
+            "time": "1900",
+            "heart_rate": "86",
+            "comments": ["Feel Fine"]
+        }, {
+            "measurement_type": "Heart rate",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "heart_rate": "77",
+            "comments": ["Feel OK"]
+        }, {
+            "measurement_type": "Body weight",
+            "date": "02 Apr 2010",
+            "time": "1720",
+            "body_weight": "246",
+            "measure": "Pounds",
+            "comments": ["Talk to provider about weight management program at next visit"]
+        }, {
+            "measurement_type": "Body weight",
+            "date": "02 May 2010",
+            "time": "1720",
+            "body_weight": "244",
+            "measure": "Pounds",
+            "comments": ["Lost a few pounds and feel better.  Walking daily"]
+        }, {
+            "measurement_type": "Body weight",
+            "date": "02 Jun 2010",
+            "time": "1720",
+            "body_weight": "242",
+            "measure": "Pounds",
+            "comments": ["still walking when I have time off from work"]
+        }, {
+            "measurement_type": "Body weight",
+            "date": "06 Jan 2013",
+            "time": "1900",
+            "body_weight": "244",
+            "measure": "Pounds",
+            "comments": ["I can feel all those Christmas cookies I ate"]
+        }, {
+            "measurement_type": "Body weight",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "body_weight": "242",
+            "measure": "Pounds",
+            "comments": ["Took a long walk with the dog today"]
+        }, {
+            "measurement_type": "Body temperature",
+            "date": "02 Mar 2010",
+            "time": "1720",
+            "body_temperature": "98.5",
+            "measure": "Fahrenheit",
+            "method": "Mouth",
+            "comments": ["I wasn't feeling well but temperature is normal"]
+        }, {
+            "measurement_type": "Body temperature",
+            "date": "06 Jan 2013",
+            "time": "1900",
+            "body_temperature": "98.3",
+            "measure": "Fahrenheit",
+            "method": "Mouth",
+            "comments": ["Not sure if this ear themo is working or if I am doing something", "work..."]
+        }, {
+            "measurement_type": "Body temperature",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "body_temperature": "98.1",
+            "measure": "Fahrenheit",
+            "method": "Mouth",
+            "comments": ["Feel Fine"]
+        }, {
+            "measurement_type": "Pain",
+            "date": "02 Jan 2010",
+            "time": "1720",
+            "pain_level": "7",
+            "comments": ["Lower back pain - took 1 Ibuprofen with food for pain"]
+        }, {
+            "measurement_type": "Pain",
+            "date": "06 Jan 2013",
+            "time": "1900",
+            "pain_level": "4",
+            "comments": ["Feet are sore from the long walk I took with the Dog today"]
+        }, {
+            "measurement_type": "Pain",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "pain_level": "3",
+            "comments": ["General aches"]
+        }, {
+            "measurement_type": "Blood sugar",
+            "date": "02 Jan 2010",
+            "time": "1720",
+            "method": "Sterile Lancet",
+            "blood_sugar_count": "166",
+            "comments": ["BS taken before meal"]
+        }, {
+            "measurement_type": "Blood sugar",
+            "date": "06 Jan 2013",
+            "time": "1900",
+            "method": "Sterile Lancet",
+            "blood_sugar_count": "174",
+            "comments": ["I just ate. Need to leave the ice cream alone"]
+        }, {
+            "measurement_type": "Blood sugar",
+            "date": "07 Jan 2013",
+            "time": "2359",
+            "method": "Sterile Lancet",
+            "blood_sugar_count": "141",
+            "comments": ["Feeling good!"]
+        }, {
+            "measurement_type": "INR",
+            "date": "08 Jan 2013",
+            "time": "2359",
+            "inr_value": ".8",
+            "target_range": "No Target",
+            "location": "Non VA Provider",
+            "provider": "Dr. Smith",
+            "comments": ["PT Only 9.6", "PTT only 13.3"]
+        }]
+    },
     "found": true
 }, {
     "name": "va_radiology",

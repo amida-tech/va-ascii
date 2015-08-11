@@ -6,12 +6,11 @@ var expect = require('chai').expect;
 var fs = require('fs');
 var split = require('split');
 
-var bbcms = require("../index");
-var bbm = require('blue-button-model');
+var bbva = require("../index");
 
-describe('parser.js', function () {
-    it('CMS parser test', function (done) {
-        var istream = fs.createReadStream(__dirname + '/fixtures/sample.txt', 'ascii');
+describe('VA ASCII to Intermediate Object', function () {
+    it('should convert to Int Obj', function (done) {
+        var istream = fs.createReadStream(__dirname + '/fixtures/va-ascii.txt', 'ascii');
 
         expect(istream).to.exist;
 
@@ -26,7 +25,7 @@ describe('parser.js', function () {
             done(e);
         } );*/
 
-        istream.pipe(split()).pipe(new bbcms.VaAsciiFile2Object())
+        istream.pipe(split()).pipe(new bbva.VaAsciiFile2Object())
             .on('data', function (data) {
                 console.log(JSON.stringify(data, null, '    '));
             })
@@ -49,7 +48,7 @@ describe('parser.js', function () {
     });
 
     it('CMS parser/converter test', function (done) {
-        var istream = fs.createReadStream(__dirname + '/fixtures/sample.txt', 'ascii');
+        var istream = fs.createReadStream(__dirname + '/fixtures/va-ascii.txt', 'ascii');
 
         expect(istream).to.exist;
 
@@ -65,8 +64,8 @@ describe('parser.js', function () {
         } );*/
 
         istream.pipe(split())
-            .pipe(new bbcms.VaAsciiFile2Object())
-            .pipe(new bbcms.IntObjToFhirStream())
+            .pipe(new bbva.VaAsciiFile2Object())
+            .pipe(new bbva.IntObjToFhirStream())
             .on('data', function (data) {
                 console.log(JSON.stringify(data, null, '    '));
             })

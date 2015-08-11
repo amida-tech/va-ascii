@@ -6,14 +6,13 @@
 var fs = require('fs');
 var split = require('split');
 
-var bbcms = require("./index");
-var bbm = require('blue-button-model');
+var bbva = require("./index");
 
 var istream = fs.createReadStream(__dirname + '/test/fixtures/va-ascii.txt', 'utf-8');
 
 istream.pipe(split())
-    .pipe(new bbcms.VaAsciiFile2Object())
-    .pipe(new bbcms.IntObjToFhirStream("http://localhost:8080/fhir/base"))
+    .pipe(new bbva.VaAsciiFile2Object())
+    .pipe(new bbva.IntObjToFhirStream("http://localhost:8080/fhir/base"))
     .on('data', function (data) {
         console.log(JSON.stringify(data, null, '  '));
     })

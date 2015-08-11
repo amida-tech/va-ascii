@@ -1,6 +1,7 @@
 Below is sample output... will update this with each commit:
 
 ```
+{
     "header": {
         "bbversion": "12.10",
         "requestdate": "05 Nov 2014 @ 0827",
@@ -63,7 +64,8 @@ Below is sample output... will update this with each commit:
             "contact_last_name": "MHVVeteran",
             "relationship": "",
             "home_phone_number": "000-555-2339",
-            "work_phone_number:___000-555-5000__extension": "",
+            "work_phone_number": "000-555-5000",
+            "work_phone_ext": "",
             "cell_phone_number": "000-555-1458",
             "address_line_1": "123 Anwhere Road",
             "address_line_2": "Apt 123",

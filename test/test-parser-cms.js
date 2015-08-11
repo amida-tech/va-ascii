@@ -227,14 +227,33 @@ describe('VA ASCII to Intermediate Object', function () {
         expect(outputObj.self_labs).to.contain.all.keys(["source", "tests"]);
         done();
     });
+    it('self_labs should have the right length', function (done) {
+        expect(outputObj.self_labs.tests).to.exist;
+        expect(outputObj.self_labs.tests).to.have.length(3);
+        expect(outputObj.self_labs.tests[2].results).to.exist;
+        expect(outputObj.self_labs.tests[2].results).to.have.length(7);
+        done();
+    });
     it('va_vitals should have the right keys', function (done) {
         expect(outputObj.va_vitals).to.exist;
         expect(outputObj.va_vitals).to.contain.all.keys(["source", "last_updated", "summary", "sorted_by", "vitals"]);
         done();
     });
+    it('va_vitals should have the right length', function (done) {
+        expect(outputObj.va_vitals.summary).to.exist;
+        expect(outputObj.va_vitals.summary).to.have.length(7);
+        expect(outputObj.va_vitals.vitals).to.exist;
+        expect(outputObj.va_vitals.vitals).to.have.length(26);
+        done();
+    });
     it('self_vitals should have the right keys', function (done) {
         expect(outputObj.self_vitals).to.exist;
         expect(outputObj.self_vitals).to.contain.all.keys(["source", "vitals"]);
+        done();
+    });
+    it('self_vitals should have the right length', function (done) {
+        expect(outputObj.self_vitals.vitals).to.exist;
+        expect(outputObj.self_vitals.vitals).to.have.length(22);
         done();
     });
     it('va_radiology should have the right keys', function (done) {

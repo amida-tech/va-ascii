@@ -1020,44 +1020,34 @@ Below is sample output... will update this with each commit:
         }, {
             "immunization": "PNEUMOVAX POLYSACCHARIDE PPSV23",
             "date": "06 Mar 2011 @ 0900"
-        }, {
-            "immunization": "Date Received:",
-            "date": "07 Dec 2012 @ 1155"
-        }, {
-            "immunization": "Date Received:",
-            "date": "01 Oct 2012 @ 1200"
-        }, {
-            "immunization": "Date Received:",
-            "date": "06 Mar 2011 @ 0900"
-        }, {
-            "immunization": "Date Received:",
-            "date": "06 Mar 2011 @ 0900"
-        }, {
-            "immunization": "Date Received:",
-            "date": "07 Dec 2012 @ 1155"
         }],
         "immunizations": [{
             "immunization_name": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "date_received:": "07 Dec 2012 @ 1155",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "Novartis;#10127605;Feb 2010"
         }, {
             "immunization_name": "INFLUENZA-H1N1-09, NOVEL (PANDEMIC)",
+            "date_received:": "01 Oct 2012 @ 1200",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "--"
         }, {
             "immunization_name": "PNEUMOCOCCAL",
+            "date_received:": "06 Mar 2011 @ 0900",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "Inj type: IM, Site:Lt Deltoid"
         }, {
             "immunization_name": "PNEUMOVAX POLYSACCHARIDE PPSV23",
+            "date_received:": "06 Mar 2011 @ 0900",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "Inj type: IM, Site:Lt Deltoid"
         }, {
             "immunization_name": "TETANUS DIPTHERIA (TD-ADULT)",
+            "date_received:": "07 Dec 2012 @ 1155",
             "location": "PORTLAND (OR) VAMC",
             "reaction": "None Reported",
             "comments": "1234567",

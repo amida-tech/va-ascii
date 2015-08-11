@@ -1,23 +1,19 @@
 Below is sample output... will update this with each commit:
 
 ```
-[{
     "header": {
         "bbversion": "12.10",
         "requestdate": "05 Nov 2014 @ 0827",
         "requestname": "MHVTESTVETERAN, ONE A",
         "requestdob": "01 Mar 1948"
-    }
-}, {
+    },
     "request_summary": {
         "systemrequestdate": "05 Nov 2014 @ 0827",
         "filename": "mhv_MHVTESTVETERAN_20141105_0827.txt",
         "daterange": "05 Nov 2009 to 05 Nov 2014",
         "datatypes": ["My HealtheVet Account Summary", "Self Reported Demographics", "VA Demographics", "Self Reported Health Care Providers", "Self Reported Treatment Facilities", "Self Reported Health Insurance", "VA Wellness Reminders", "VA Appointments (Future)", "VA Appointments (Limited to past 2 years)", "VA Allergies", "Self Reported Allergies", "VA Medication History", "Self Reported Medications and Supplements", "VA Problem List", "VA Admissions and Discharges", "VA Notes", "Self Reported Medical Events", "VA Immunizations", "Self Reported Immunizations", "VA Laboratory Results: Chemistry/Hematology/Microbiology", "VA Pathology Reports: Surgical Pathology/Cytology/Electron Microscopy", "Self Reported Labs and Tests", "VA Vitals and Readings", "Self Reported Vitals and Readings", "VA Radiology Reports", "VA Electrocardiogram (EKG) Reports", "Self Reported Family Health History", "Self Reported Military Health History", "Self Reported Activity Journal", "Self Reported Food Journal", "DoD Military Service Information", "Self Reported My Goals Current", "Self Reported My Goals Completed"]
-    }
-}, {
-    "account_summary": {}
-}, {
+    },
+    "account_summary": {},
     "self_demographics": {
         "source": "Self-Entered",
         "first_name": "ONE",
@@ -78,8 +74,7 @@ Below is sample output... will update this with each commit:
             "zip/post_code": "00000",
             "email_address": "mhvveteranthree@emailaddress.com"
         }]
-    }
-}, {
+    },
     "va_demographics": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -322,16 +317,11 @@ Below is sample output... will update this with each commit:
                 "work_phone_number": "--"
             }
         }]
-    }
-}, {
-    "self_providers": {}
-}, {
-    "self_facilities": {}
-}, {
-    "self_insurance": {}
-}, {
-    "va_reminders": {}
-}, {
+    },
+    "self_providers": {},
+    "self_facilities": {},
+    "self_insurance": {},
+    "va_reminders": {},
     "va_appointments": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -385,8 +375,7 @@ Below is sample output... will update this with each commit:
             "clinic": "MH1,D P2 Bldg 104",
             "phone_number": "5-5187"
         }]
-    }
-}, {
+    },
     "va_allergies": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0812",
@@ -445,8 +434,7 @@ Below is sample output... will update this with each commit:
             "observed/historical": "OBSERVED",
             "comments": ["Drowsiness and hallucinations while on methocarbamol", "plus", "carbamazepine and other sedatives", "Remember to share all information about your allergies with your health", "care team.  If you have any questions about your information please visit", "the FAQs or contact your VA health care team.", "Allergy information."]
         }]
-    }
-}, {
+    },
     "self_allergies": {
         "source": "Self-Entered",
         "allergies": [{
@@ -464,8 +452,7 @@ Below is sample output... will update this with each commit:
             "reaction": "Dry cough",
             "comments": ["I called my provider and told him the reaction I had. He is calling", "in a new Rx for my HTN"]
         }]
-    }
-}, {
+    },
     "va_medications": {
         "source": "VA",
         "last_updated": "28 Oct 2014 @ 1026",
@@ -823,8 +810,7 @@ Below is sample output... will update this with each commit:
             "pharmacy": "PORTLAND PHARMACY",
             "prescription_number": "11181488"
         }]
-    }
-}, {
+    },
     "self_medications": {
         "source": "Self-Entered",
         "medications": [{
@@ -854,8 +840,7 @@ Below is sample output... will update this with each commit:
             "reason_for_taking": "To stay healthy",
             "comments": "Feeling more energetic since I started taking vitamin"
         }]
-    }
-}, {
+    },
     "va_problems": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -896,8 +881,7 @@ Below is sample output... will update this with each commit:
             "provider": "PROVIDER, ONE",
             "comments": ["--"]
         }]
-    }
-}, {
+    },
     "va_admission_discharge": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -910,8 +894,7 @@ Below is sample output... will update this with each commit:
             "discharge_physician": "PROVIDER, ONE",
             "summary": ["DISCHARGE SUMMARY", "LOCAL TITLE: Discharge Summary", "STANDARD TITLE: DISCHARGE SUMMARY", "DICT DATE: DEC 10, 2012@10:40     ENTRY DATE: DEC 10, 2012@10:41: 06", "DICTATED BY: PROVIDER, ONE          ATTENDING: PROVIDER, ONE", "URGENCY: routine                    STATUS: COMPLETED", "THIS IS ONLY A TEST", "ATTENDING PHYSICIAN: ", "PRIMARY CARE PROVIDER AND FACILIITY: ", "PRINCIPAL DIAGNOSIS: ", "OTHER DIAGNOSES TREATED OR IMPACTING TREATMENT THIS ADMISSION: ", "PROCEDURES PERFORMED AT THIS HOSPITAL DURING CURRENT ADMISSION: ", "SUMMARY: ", "(ABBREVIATED HPI, PE, AND PERTINENT LABS)", "HOSPITAL COURSE: ", "FUNCTIONAL STATUS: ", "(MAY INCLUDE ACTIVITY LEVEL, WORK RESTRICTIONS, OR DIET)", "DISCHARGE MEDICATIONS: ", "(INDICATE ADDITIONS OR CHANGES WITH AN ASTERISK)", "MEDICATIONS THAT HAVE BEEN DISCONTINUED: ", "CLINICAL ISSUES REQUIRING FOLLOW UP DURING PC PHONE APT: ", "1.", "2.", "3.", "ADDITIONAL FOLLOW UP APPOINTMENTS: ", "SPECIALTY               EXPECTED DATE   SCHEDULED(Y/N)  POINT OF CONTACT", "1.", "2.", "3.", "FOLLOW UP LABS INCLUDING PATHOLOGY & MICROBIOLOGY: ", "TEST                    ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED", "1.", "2.", "3.", "FOLLOW UP IMAGING AND PROCEDURES: ", "PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED", "1.", "2.", "3.", "/es/ ONE PROVIDER MD", "CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST", "Signed: 12/10/2012 16: 15", "for TWO PROVIDER MD", "INTERNAL MEDICINE RESIDENT"]
         }]
-    }
-}, {
+    },
     "va_notes": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -1014,10 +997,8 @@ Below is sample output... will update this with each commit:
             "date/time_signed": "07 Jan 2013 @ 1428",
             "raw_note": ["LOCAL TITLE: MHD - INDIVIDUAL NOTE", "STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE", "DATE OF NOTE: JAN 07, 2013@14:27     ENTRY DATE: JAN 07, 2013@14:28: 02", "AUTHOR: PROVIDER, ONE        EXP COSIGNER: ", "URGENCY:                            STATUS: COMPLETED", "THIS IS A TEST.  THIS IS ONLY A TEST", "/es/ ONE PROVIDER MD", "CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST", "Signed: 01/07/2013 14: 28", "/es/ ONE PROVIDER MD", "CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST", "Cosigned: 05/03/2013 09: 43", "for"]
         }]
-    }
-}, {
-    "self_events": {}
-}, {
+    },
+    "self_events": {},
     "va_immunizations": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -1080,8 +1061,7 @@ Below is sample output... will update this with each commit:
             "comments": "1234567",
             "reaction_key": "= Check information in your VA Allergies and Adverse Reactions"
         }]
-    }
-}, {
+    },
     "self_immunizations": {
         "source": "Self-Entered",
         "lastkey": "comments",
@@ -1100,8 +1080,7 @@ Below is sample output... will update this with each commit:
             "reactions": " --------------------------------- Pain",
             "comments": "stepped on a rusty nail"
         }]
-    }
-}, {
+    },
     "va_labs": {
         "source": "VA",
         "newtest": false,
@@ -1948,36 +1927,33 @@ Below is sample output... will update this with each commit:
             }],
             "raw_lab": ["Comments: GLUCOSE flagged incorrectly as normal", "GLUCOSE reported incorrectly as 110 by [104353-VA648].", "Changed to 150 on Jun 03, 2011@10: 31 by [104353-VA648]."]
         }]
-    }
-}, {
-    "va_pathology": {}
-}, {
+    },
+    "va_pathology": {},
     "self_labs": {
         "source": "Self-Entered",
         "tests": [{
-            "medication_name": "Blood Test",
+            "test_name": "Blood Test",
             "date": "06 Jun 2010",
             "location_performed": "Community Center",
             "provider": "Red Cross Blood Drive",
             "results": ["Was not able to donate blood because iron was low"],
             "comments": "Will ask doctor at next visit"
         }, {
-            "medication_name": "Colonoscopy",
+            "test_name": "Colonoscopy",
             "date": "01 Jul 2010",
             "location_performed": "VAMC",
             "provider": "Provider One",
             "results": ["No new polyps"],
             "comments": "Keep high fiber diet"
         }, {
-            "medication_name": "CBC",
+            "test_name": "CBC",
             "date": "08 Jan 2013",
             "location_performed": "Non VA Location",
             "provider": "Dr. Smith",
             "results": ["GLUCOSE 144", "K   \t4.1", "CO2 \t26.9", "CA \t9.3", "AST\t31", "ALT\t35", "ALK\t86"],
             "comments": "This is an old lab test. I wanted the report in my record"
         }]
-    }
-}, {
+    },
     "va_vitals": {
         "source": "VA",
         "last_updated": "05 Nov 2014 @ 0813",
@@ -2168,8 +2144,7 @@ Below is sample output... will update this with each commit:
             "location": "PORTLAND, OREGON VA MEDICAL CENTER",
             "date/time_collected": "06 Jun 2011 @ 1237"
         }]
-    }
-}, {
+    },
     "self_vitals": {
         "source": "Self-Entered",
         "vitals": [{
@@ -2326,24 +2301,15 @@ Below is sample output... will update this with each commit:
             "provider": "Dr. Smith",
             "comments": ["PT Only 9.6", "PTT only 13.3"]
         }]
-    }
-}, {
-    "va_radiology": {}
-}, {
-    "va_ekg": {}
-}, {
-    "self_family": {}
-}, {
-    "self_military": {}
-}, {
-    "self_activity": {}
-}, {
-    "self_food": {}
-}, {
-    "dod_service": {}
-}, {
-    "self_current_goals": {}
-}, {
+    },
+    "va_radiology": {},
+    "va_ekg": {},
+    "self_family": {},
+    "self_military": {},
+    "self_activity": {},
+    "self_food": {},
+    "dod_service": {},
+    "self_current_goals": {},
     "self_completed_goals": {}
-}]
+}
 ```

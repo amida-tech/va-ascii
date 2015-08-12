@@ -7,8 +7,9 @@ Generate FHIR JSON data from VA files.
 
 ## About
 
-This parser converts MyHealtheVet *.txt files to FHIR objects.  Sample files were obtained from [VA's Blue Button Resources](http://www.va.gov/BLUEBUTTON/Resources.asp).  At the moment we're only parsing 15 of the 31 sections to an intermediate JSON object.  These include: Self and VA Demographics, VA Appointments (past), VA Allergies, VA Medication History, VA Problem List, VA Admissions and Discharges, VA Immunizations, VA Labs, VA Vitals, VA Notes, Self Immunizations, Self Allergies, Self Medication History, Self Labs, Self Vitals
+This parser converts MyHealtheVet \*.txt files to FHIR objects.  Sample files were obtained from [VA's Blue Button Resources](http://www.va.gov/BLUEBUTTON/Resources.asp).  At the moment we're only parsing 15 of the 31 sections to an intermediate JSON object.  These include: Self and VA Demographics, VA Appointments (past), VA Allergies, VA Medication History, VA Problem List, VA Admissions and Discharges, VA Immunizations, VA Labs, VA Vitals, VA Notes, Self Immunizations, Self Allergies, Self Medication History, Self Labs, Self Vitals
 
+FHIR Object conversion is not yet working.
 
 ## Usage
 

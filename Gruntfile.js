@@ -5,7 +5,7 @@ var path = require('path');
 
 var generateChangeDetectionFiles = function (grunt) {
     var srcs = [
-        'test/fixtures/sample.txt',
+        'test/fixtures/sample.txt'
     ];
     var dest = 'test/fixtures/generated';
 
@@ -29,8 +29,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-istanbul-coverage');
     grunt.loadNpmTasks('grunt-coveralls');
     grunt.loadNpmTasks('grunt-jsbeautifier');
-    grunt.loadNpmTasks('grunt-browserify');
-    grunt.loadNpmTasks('grunt-mocha-phantomjs');
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     // Project configuration.
@@ -121,29 +119,6 @@ module.exports = function (grunt) {
                 root: '.'
             }
         },
-        browserify: {
-            standalone: {
-                src: ['<%=pkg.main%>'],
-                dest: 'dist/<%=pkg.name%>.standalone.js',
-                options: {
-                    standalone: '<%=pkg.name%>'
-                }
-            },
-            require: {
-                src: ['<%=pkg.main%>'],
-                dest: 'dist/<%=pkg.name%>.js',
-                options: {
-                    alias: [__dirname + "/index.js:<%=pkg.name%>"]
-                }
-            },
-            tests: {
-                src: ['test/**/*.js'],
-                dest: 'dist/mocha_tests.js',
-                options: {
-                    transform: ['brfs']
-                }
-            }
-        },
         connect: {
             server: {
                 options: {
@@ -165,12 +140,11 @@ module.exports = function (grunt) {
 
     grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
-    grunt.registerTask('browser-test', ['browserify:require', 'browserify:tests', 'connect', 'mocha_phantomjs']);
     grunt.registerTask('gen-change-detect', 'generates files to detect changes in generation', function () {
         generateChangeDetectionFiles(grunt);
     });
 
-    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'browser-test', 'gen-change-detect']);
+    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'gen-change-detect']);
 
     grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

@@ -97,24 +97,24 @@ module.exports = function (grunt) {
             }
         }
     });
-
-    grunt.event.on('mycoverage', function (lcovFileContents, done) {
-        require('mycoveralls').handleInput(lcov, function (err) {
-            if (err) {
-                return done(err);
-            }
-            done();
+    /*
+        grunt.event.on('coverage', function (lcovFileContents, done) {
+            require('coveralls').handleInput(lcov, function (err) {
+                if (err) {
+                    return done(err);
+                }
+                done();
+            });
         });
-    });
-
-    grunt.registerTask('mycoveralls', ['mocha_istanbul:coveralls']);
-    grunt.registerTask('mycoverage', ['mocha_istanbul:coverage']);
-    grunt.registerTask('mybeautify', ['jsbeautifier:beautify']);
+    */
+    //grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
+    //grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
+    grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
 
-    grunt.registerTask('default', ['mybeautify', 'jshint', 'mocha', 'mycoverage']);
+    grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest', 'mocha_istanbul:coverage']);
 
-    grunt.registerTask('commit', ['jshint', 'mocha']);
+    //    grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {
         grunt.log.subhead(new Date());
     });

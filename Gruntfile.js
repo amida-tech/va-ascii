@@ -1,6 +1,5 @@
 /*global module*/
 
-var bbcms = require('./index');
 var path = require('path');
 
 module.exports = function (grunt) {
@@ -14,7 +13,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         jshint: {
-            files: ['*.js', './lib/**/*.js', './test/**/*.js'],
+            files: ['*.js', './lib/*.js', './test/*.js'],
             options: {
                 browser: true,
                 smarttabs: true,
@@ -42,7 +41,7 @@ module.exports = function (grunt) {
         },
         jsbeautifier: {
             beautify: {
-                src: ['Gruntfile.js', 'lib/**/*.js', 'test/*.js', '*.js'],
+                src: ['Gruntfile.js', 'lib/*.js', 'test/*.js', '*.js'],
                 options: {
                     config: '.jsbeautifyrc'
                 }
@@ -107,13 +106,12 @@ module.exports = function (grunt) {
             });
         });
     */
-    //grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
-    //grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
+    grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
+    grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
     grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
 
-    //grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest', 'mocha_istanbul:coverage']);
-    grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest']);
+    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'coveralls']);
 
     //    grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

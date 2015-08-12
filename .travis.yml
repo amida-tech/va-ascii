@@ -10,4 +10,4 @@ before_script:
 
 
 script:
-    - grunt
+    - grunt --trace-deprecation

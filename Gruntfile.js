@@ -3,31 +3,11 @@
 var bbcms = require('./index');
 var path = require('path');
 
-var generateChangeDetectionFiles = function (grunt) {
-    var srcs = [
-        'test/fixtures/sample.txt'
-    ];
-    var dest = 'test/fixtures/generated';
-
-    srcs.forEach(function (src) {
-        var content = grunt.file.read(src);
-        var result = bbcms.parseText(content);
-
-        var baseName = path.basename(src, path.extname(src));
-        var destName = baseName + '.json';
-        var destPath = path.join(dest, destName);
-        var destContent = JSON.stringify(result, undefined, 2);
-        grunt.file.write(destPath, destContent);
-    });
-};
-
 module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-mocha-test');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-istanbul-coverage');
-    grunt.loadNpmTasks('grunt-coveralls');
+    grunt.loadNpmTasks('grunt-mocha-istanbul');
     grunt.loadNpmTasks('grunt-jsbeautifier');
     grunt.loadNpmTasks('grunt-contrib-connect');
 
@@ -61,12 +41,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-        watch: {
-            all: {
-                files: ['./lib/*.js', '*.js'],
-                tasks: ['default']
-            }
-        },
         jsbeautifier: {
             beautify: {
                 src: ['Gruntfile.js', 'lib/**/*.js', 'test/*.js', '*.js'],
@@ -92,33 +66,6 @@ module.exports = function (grunt) {
                 src: ['test/*.js']
             }
         },
-        coveralls: {
-            options: {
-                // LCOV coverage file relevant to every target
-                src: 'coverage/lcov.info',
-
-                // When true, grunt-coveralls will only print a warning rather than
-                // an error, to prevent CI builds from failing unnecessarily (e.g. if
-                // coveralls.io is down). Optional, defaults to false.
-                force: false
-            }
-            //your_target: {
-            // Target-specific LCOV coverage file
-            //src: 'coverage-results/extra-results-*.info'
-            //},
-        },
-        coverage: {
-            options: {
-                thresholds: {
-                    'statements': 50,
-                    'branches': 25,
-                    'lines': 50,
-                    'functions': 50
-                },
-                dir: 'coverage/',
-                root: '.'
-            }
-        },
         connect: {
             server: {
                 options: {
@@ -126,16 +73,55 @@ module.exports = function (grunt) {
                     hostname: '127.0.0.1'
                 }
             }
+        },
+        mocha_istanbul: {
+            coverage: {
+                src: 'test', // a folder works nicely
+                options: {
+                    mask: '*.js'
+                }
+            },
+            coveralls: {
+                src: ['test'], // multiple folders also works
+                options: {
+                    coverage: true, // this will make the grunt.event.on('coverage') event listener to be triggered
+                    check: {
+                        lines: 75,
+                        statements: 75
+                    },
+                    root: './lib', // define where the cover task should consider the root of libraries that are covered by tests
+                    reportFormats: ['cobertura', 'lcovonly']
+                }
+            }
+        },
+        istanbul_check_coverage: {
+            default: {
+                options: {
+                    coverageFolder: 'coverage*', // will check both coverage folders and merge the coverage results
+                    check: {
+                        lines: 80,
+                        statements: 80
+                    }
+                }
+            }
         }
     });
 
-    grunt.registerTask('beautify', ['jsbeautifier:beautify']);
-    grunt.registerTask('mocha', ['mochaTest']);
-    grunt.registerTask('gen-change-detect', 'generates files to detect changes in generation', function () {
-        generateChangeDetectionFiles(grunt);
+    grunt.event.on('coverage', function (lcovFileContents, done) {
+        require('coveralls').handleInput(lcov, function (err) {
+            if (err) {
+                return done(err);
+            }
+            done();
+        });
     });
 
-    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'gen-change-detect']);
+    grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
+    grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
+    grunt.registerTask('beautify', ['jsbeautifier:beautify']);
+    grunt.registerTask('mocha', ['mochaTest']);
+
+    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'coverage']);
 
     grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

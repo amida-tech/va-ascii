@@ -3,7 +3,10 @@ va-ascii
 
 Blue Button VA-ASCII to FHIR Parser
 
-Generate FHIR JSON data from VA files. 
+Generate FHIR JSON data from VA files.
+ 
+ [![Build Status](https://travis-ci.org/amida-tech/va-ascii.svg)](https://travis-ci.org/amida-tech/va-ascii)
+ [![Dependency Status](https://david-dm.org/amida-tech/va-ascii.svg)](https://david-dm.org/amida-tech/va-ascii)
 
 ## About
 
@@ -44,7 +47,7 @@ example output:
 
 ## Example app
 
-Example app is <a href="https://github.com/amida-tech/va-ascii/blob/master/app.js">here</a>
+Example app is [here](./app.js)
 
 ## License
 

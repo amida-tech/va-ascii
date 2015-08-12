@@ -9,7 +9,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-mocha-istanbul');
     grunt.loadNpmTasks('grunt-jsbeautifier');
-    grunt.loadNpmTasks('grunt-contrib-connect');
 
     // Project configuration.
     grunt.initConfig({
@@ -66,14 +65,6 @@ module.exports = function (grunt) {
                 src: ['test/*.js']
             }
         },
-        connect: {
-            server: {
-                options: {
-                    port: 8000,
-                    hostname: '127.0.0.1'
-                }
-            }
-        },
         mocha_istanbul: {
             coverage: {
                 src: 'test', // a folder works nicely
@@ -118,10 +109,10 @@ module.exports = function (grunt) {
 
     grunt.registerTask('mycoveralls', ['mocha_istanbul:coveralls']);
     grunt.registerTask('mycoverage', ['mocha_istanbul:coverage']);
-    grunt.registerTask('beautify', ['jsbeautifier:beautify']);
+    grunt.registerTask('mybeautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
 
-    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'mycoverage']);
+    grunt.registerTask('default', ['mybeautify', 'jshint', 'mocha', 'mycoverage']);
 
     grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

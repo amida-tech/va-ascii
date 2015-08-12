@@ -101,7 +101,7 @@ module.exports = function (grunt) {
                 // an error, to prevent CI builds from failing unnecessarily (e.g. if
                 // coveralls.io is down). Optional, defaults to false.
                 force: false
-            },
+            }
             //your_target: {
             // Target-specific LCOV coverage file
             //src: 'coverage-results/extra-results-*.info'
@@ -126,15 +126,6 @@ module.exports = function (grunt) {
                     hostname: '127.0.0.1'
                 }
             }
-        },
-        'mocha_phantomjs': {
-            all: {
-                options: {
-                    urls: [
-                        'http://127.0.0.1:8000/dist/mocha_runner.html'
-                    ]
-                }
-            }
         }
     });
 
@@ -148,6 +139,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {
-        grunt.log.subhead(Date());
+        grunt.log.subhead(new Date());
     });
 };

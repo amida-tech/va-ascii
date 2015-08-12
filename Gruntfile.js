@@ -73,7 +73,7 @@ module.exports = function (grunt) {
                 }
             },
             coveralls: {
-                src: ['test'], // multiple folders also works
+                src: 'test', // multiple folders also works
                 options: {
                     coverage: true, // this will make the grunt.event.on('coverage') event listener to be triggered
                     check: {
@@ -112,7 +112,8 @@ module.exports = function (grunt) {
     grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
 
-    grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest', 'mocha_istanbul:coverage']);
+    //grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest', 'mocha_istanbul:coverage']);
+    grunt.registerTask('default', ['jsbeautifier:beautify', 'jshint', 'mochaTest']);
 
     //    grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

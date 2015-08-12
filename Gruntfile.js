@@ -107,8 +107,8 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.event.on('coverage', function (lcovFileContents, done) {
-        require('coveralls').handleInput(lcov, function (err) {
+    grunt.event.on('mycoverage', function (lcovFileContents, done) {
+        require('mycoveralls').handleInput(lcov, function (err) {
             if (err) {
                 return done(err);
             }
@@ -116,12 +116,12 @@ module.exports = function (grunt) {
         });
     });
 
-    grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
-    grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
+    grunt.registerTask('mycoveralls', ['mocha_istanbul:coveralls']);
+    grunt.registerTask('mycoverage', ['mocha_istanbul:coverage']);
     grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
 
-    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'coverage']);
+    grunt.registerTask('default', ['beautify', 'jshint', 'mocha', 'mycoverage']);
 
     grunt.registerTask('commit', ['jshint', 'mocha']);
     grunt.registerTask('timestamp', function () {

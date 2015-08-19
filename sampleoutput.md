@@ -1,3 +1,207 @@
+## FHIR Object Sample Output
+
+```
+{
+    "patient": {
+        "resourceType": "Patient",
+        "text": {
+            "status": "generated",
+            "div": ""
+        },
+        "identifier": [],
+        "name": [{
+            "use": "self",
+            "family": ["MHVTESTVETERAN"],
+            "given": ["ONE"]
+        }, {
+            "use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS",
+            "family": ["MHVTESTVETERAN"],
+            "given": ["ONE"]
+        }, {
+            "use": "SPOKANE_VAMC",
+            "family": ["MHVTESTVETERAN"],
+            "given": ["ONE"]
+        }, {
+            "use": "PORTLAND,_OREGON_VA_MEDICAL_CENTER",
+            "family": ["MHVTESTVETERAN"],
+            "given": ["ONE"]
+        }],
+        "telecom": [{
+            "system": "phone",
+            "value": "000-555-2123",
+            "use": "home"
+        }, {
+            "system": "phone",
+            "value": "000-555-4100",
+            "use": "work"
+        }, {
+            "system": "phone",
+            "value": "000-555-0303",
+            "use": "cell"
+        }, {
+            "system": "fax",
+            "value": "000-555-4110",
+            "use": "fax"
+        }, {
+            "system": "pager",
+            "value": "000-555-2020",
+            "use": "pager"
+        }, {
+            "system": "phone",
+            "value": "000-555-2123",
+            "use": "home"
+        }, {
+            "system": "email",
+            "value": "mhvveteran@emailaddress.com",
+            "use": "email"
+        }, {
+            "system": "email",
+            "value": "MHVVETERAN@EMAILADDRESS.COM",
+            "use": "email"
+        }, {
+            "system": "email",
+            "value": "MHVVETERAN@EMAILADDRESS.COM",
+            "use": "email"
+        }, {
+            "system": "email",
+            "value": "MHVVETERAN@EMAILADDRESS.COM",
+            "use": "email"
+        }],
+        "gender": {
+            "coding": []
+        },
+        "birthDate": "",
+        "deceasedBoolean": false,
+        "address": [{
+            "use": "home",
+            "line": ["123 Anywhere Road", "Apt. 123"],
+            "city": "Anywhere",
+            "state": "DC",
+            "zip": "00000"
+        }, {
+            "use": "home",
+            "line": ["123 ANYWHERE RD", "APT 123"],
+            "city": "WASHINGTON",
+            "state": "DISTRICT OF COLUMBIA",
+            "zip": "00000"
+        }, {
+            "use": "home",
+            "line": ["123 ANYWHERE RD", "APT 123"],
+            "city": "WASHINGTON",
+            "state": "DISTRICT OF COLUMBIA",
+            "zip": "00000"
+        }, {
+            "use": "home",
+            "line": ["123 ANYWHERE RD", "APT 123"],
+            "city": "WASHINGTON",
+            "state": "DISTRICT OF COLUMBIA",
+            "zip": "00000"
+        }],
+        "contact": [{
+            "relationship": [{
+                "coding": []
+            }],
+            "name": {
+                "family": ["MHVVeteran"],
+                "_family": [{
+                    "extension": []
+                }],
+                "given": ["Two"]
+            },
+            "telecom": [{
+                "system": "phone",
+                "value": "000-555-2121",
+                "use": "home"
+            }, {
+                "system": "phone",
+                "value": "000-555-1000",
+                "use": "work"
+            }, {
+                "system": "phone",
+                "value": "000-555-1855",
+                "use": "cell"
+            }]
+        }, {
+            "relationship": [{
+                "coding": []
+            }],
+            "name": {
+                "family": ["MHVVeteran"],
+                "_family": [{
+                    "extension": []
+                }],
+                "given": ["Three"]
+            },
+            "telecom": [{
+                "system": "phone",
+                "value": "000-555-2339",
+                "use": "home"
+            }, {
+                "system": "phone",
+                "value": "000-555-5000",
+                "use": "work"
+            }, {
+                "system": "phone",
+                "value": "000-555-1458",
+                "use": "cell"
+            }]
+        }, {
+            "relationship": [{
+                "coding": []
+            }],
+            "name": {
+                "family": ["MHVVETERAN"],
+                "_family": [{
+                    "extension": []
+                }],
+                "given": ["TWO"]
+            },
+            "telecom": [{
+                "system": "phone",
+                "value": "000-444-1952",
+                "use": "home"
+            }]
+        }, {
+            "relationship": [{
+                "coding": []
+            }],
+            "name": {
+                "family": ["MHVVETERAN"],
+                "_family": [{
+                    "extension": []
+                }],
+                "given": ["TWO"]
+            },
+            "telecom": [{
+                "system": "phone",
+                "value": "000-444-1952",
+                "use": "home"
+            }]
+        }, {
+            "relationship": [{
+                "coding": []
+            }],
+            "name": {
+                "family": ["MHVVETERAN"],
+                "_family": [{
+                    "extension": []
+                }],
+                "given": ["TWO"]
+            },
+            "telecom": [{
+                "system": "phone",
+                "value": "000-444-1952",
+                "use": "home"
+            }]
+        }],
+        "managingOrganization": {
+            "reference": ""
+        },
+        "active": true
+    }
+}
+```
+
 ## Intermediate Object Sample Output
 
 ```
@@ -2303,209 +2507,5 @@
     "dod_service": {},
     "self_current_goals": {},
     "self_completed_goals": {}
-}
-```
-
-## FHIR Object Sample Output
-
-```
-{
-    "patient": {
-        "resourceType": "Patient",
-        "text": {
-            "status": "generated",
-            "div": ""
-        },
-        "identifier": [],
-        "name": [{
-            "use": "self",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "SPOKANE_VAMC",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "PORTLAND,_OREGON_VA_MEDICAL_CENTER",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }],
-        "telecom": [{
-            "system": "phone",
-            "value": "000-555-2123",
-            "use": "home"
-        }, {
-            "system": "phone",
-            "value": "000-555-4100",
-            "use": "work"
-        }, {
-            "system": "phone",
-            "value": "000-555-0303",
-            "use": "cell"
-        }, {
-            "system": "fax",
-            "value": "000-555-4110",
-            "use": "fax"
-        }, {
-            "system": "pager",
-            "value": "000-555-2020",
-            "use": "pager"
-        }, {
-            "system": "phone",
-            "value": "000-555-2123",
-            "use": "home"
-        }, {
-            "system": "email",
-            "value": "mhvveteran@emailaddress.com",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }],
-        "gender": {
-            "coding": []
-        },
-        "birthDate": "",
-        "deceasedBoolean": false,
-        "address": [{
-            "use": "home",
-            "line": ["123 Anywhere Road", "Apt. 123"],
-            "city": "Anywhere",
-            "state": "DC",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }],
-        "contact": [{
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVeteran"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["Two"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-555-2121",
-                "use": "home"
-            }, {
-                "system": "phone",
-                "value": "000-555-1000",
-                "use": "work"
-            }, {
-                "system": "phone",
-                "value": "000-555-1855",
-                "use": "cell"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVeteran"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["Three"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-555-2339",
-                "use": "home"
-            }, {
-                "system": "phone",
-                "value": "000-555-5000",
-                "use": "work"
-            }, {
-                "system": "phone",
-                "value": "000-555-1458",
-                "use": "cell"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["TWO"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["TWO"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["TWO"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }],
-        "managingOrganization": {
-            "reference": ""
-        },
-        "active": true
-    }
 }
 ```

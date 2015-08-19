@@ -2,57 +2,56 @@
 
 This file lists the intermediate object lowest level data sets (left) with their FHIR object destinations
 
- * `header.bbversion` ->
- * `header.requestdate` ->
- * `header.requestname` ->
- * `header.requestdob` ->
- * `request_summary.systemrequestdate` ->
- * `request_summary.filename` ->
- * `request_summary.daterange` ->
- * `request_summary.datatypes[0]` ->
- * `self_demographics` ->
- * `self_demographics.source` ->
- * `self_demographics.first_name` ->
- * `self_demographics.middle_initial` ->
- * `self_demographics.last_name` ->
- * `self_demographics.suffix` ->
- * `self_demographics.alias` ->
- * `self_demographics.relationship_to_va` ->
- * `self_demographics.gender` ->
- * `self_demographics.bloodtype` ->
- * `self_demographics.organdonor` ->
- * `self_demographics.date_of_birth` ->
- * `self_demographics.marital_status` ->
- * `self_demographics.current_occupation` ->
- * `self_demographics.mailing_or_destination_address` ->
- * `self_demographics.mailing_or_destination_address2` ->
- * `self_demographics.mailing_or_destination_city` ->
- * `self_demographics.mailing_or_destination_state` ->
- * `self_demographics.mailing_or_destination_country` ->
- * `self_demographics.mailing_or_destination_province` ->
- * `self_demographics.mailing_or_destination_zip/postal_code` ->
- * `self_demographics.home_phone_number` ->
- * `self_demographics.work_phone_number` ->
- * `self_demographics.pager_number` ->
- * `self_demographics.cell_phone_number` ->
- * `self_demographics.fax_number` ->
- * `self_demographics.email_address` ->
- * `self_demographics.preferred_method_of_contact` ->
- * `self_demographics.emergencycontacts[0].contact_first_name` ->
- * `self_demographics.emergencycontacts[0].contact_last_name` ->
- * `self_demographics.emergencycontacts[0].relationship` ->
- * `self_demographics.emergencycontacts[0].home_phone_number` ->
- * `self_demographics.emergencycontacts[0].work_phone_number` ->
- * `self_demographics.emergencycontacts[0].work_phone_ext` ->
- * `self_demographics.emergencycontacts[0].cell_phone_number` ->
- * `self_demographics.emergencycontacts[0].address_line_1` ->
- * `self_demographics.emergencycontacts[0].address_line_2` ->
- * `self_demographics.emergencycontacts[0].city` ->
- * `self_demographics.emergencycontacts[0].state` ->
- * `self_demographics.emergencycontacts[0].country` ->
- * `self_demographics.emergencycontacts[0].province` ->
- * `self_demographics.emergencycontacts[0].zip/post_code` ->
- * `self_demographics.emergencycontacts[0].email_address` ->
+ * `header.bbversion` -> not used
+ * `header.requestdate` -> not used
+ * `header.requestname` -> not used
+ * `header.requestdob` -> not used
+ * `request_summary.systemrequestdate` -> not used
+ * `request_summary.filename` -> not used
+ * `request_summary.daterange` -> not used
+ * `request_summary.datatypes[0]` -> not used 
+ * `self_demographics.source` -> not used
+ * `self_demographics.first_name` -> `Patient` resource `"name"` (array entry) in `"given" {"use": "self", "family": ["MHVTESTVETERAN"], "given": ["ONE"]}`
+ * `self_demographics.middle_initial` -> not used
+ * `self_demographics.last_name` -> `Patient` resource `"name"` (array entry) in `"family" {"use": "self", "family": ["MHVTESTVETERAN"], "given": ["ONE"]}`
+ * `self_demographics.suffix` -> not used
+ * `self_demographics.alias` -> not used
+ * `self_demographics.relationship_to_va` -> not used
+ * `self_demographics.gender` -> TODO
+ * `self_demographics.bloodtype` -> not used
+ * `self_demographics.organdonor` -> not used
+ * `self_demographics.date_of_birth` -> `Patient` resource `"birthDate"` (TODO: match FHIR formatting)
+ * `self_demographics.marital_status` -> not used
+ * `self_demographics.current_occupation` -> not used
+ * `self_demographics.mailing_or_destination_address` -> `Patient` resource `"address"` (array) in `"line"` (array) `{"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `self_demographics.mailing_or_destination_address2` -> `Patient` resource `"address"` (array) in `"line"` (array) `{"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `self_demographics.mailing_or_destination_city` -> `Patient` resource `"address"` (array) in `"city" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `self_demographics.mailing_or_destination_state` -> `Patient` resource `"address"` (array) in `"state" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `self_demographics.mailing_or_destination_country` -> not used
+ * `self_demographics.mailing_or_destination_province` -> not used
+ * `self_demographics.mailing_or_destination_zip/postal_code` -> `Patient` resource `"address"` (array) in `"zip" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `self_demographics.home_phone_number` -> `Patient` resource `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "home"}`
+ * `self_demographics.work_phone_number` -> `Patient` resource `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "work"}`
+ * `self_demographics.pager_number` -> `Patient` resource `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "pager"}`
+ * `self_demographics.cell_phone_number` -> `Patient` resource `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "cell"}`
+ * `self_demographics.fax_number` -> `Patient` resource `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "fax"}`
+ * `self_demographics.email_address` -> `Patient` resource `"telecom"` (array entry) `{"system": "email", "value": "000-555-2123", "use": "email"}`
+ * `self_demographics.preferred_method_of_contact` -> not used
+ * `self_demographics.emergencycontacts[0].contact_first_name` -> `Patient` resource `"contact"` (array entry) `"name"`
+ * `self_demographics.emergencycontacts[0].contact_last_name` -> `Patient` resource `"contact"` (array entry) `"name"`
+ * `self_demographics.emergencycontacts[0].relationship` -> not used
+ * `self_demographics.emergencycontacts[0].home_phone_number` -> `Patient` resource `"contact"` (array entry) `"telecom"`
+ * `self_demographics.emergencycontacts[0].work_phone_number` -> `Patient` resource `"contact"` (array entry) `"telecom"`
+ * `self_demographics.emergencycontacts[0].work_phone_ext` -> not used
+ * `self_demographics.emergencycontacts[0].cell_phone_number` -> `Patient` resource `"contact"` (array entry) `"telecom"`
+ * `self_demographics.emergencycontacts[0].address_line_1` -> not used
+ * `self_demographics.emergencycontacts[0].address_line_2` -> not used
+ * `self_demographics.emergencycontacts[0].city` -> not used
+ * `self_demographics.emergencycontacts[0].state` -> not used
+ * `self_demographics.emergencycontacts[0].country` -> not used
+ * `self_demographics.emergencycontacts[0].province` -> not used
+ * `self_demographics.emergencycontacts[0].zip/post_code` -> not used
+ * `self_demographics.emergencycontacts[0].email_address` -> `Patient` resource `"contact"` (array entry) `"telecom"`
  * `va_demographics.source` ->
  * `va_demographics.last_updated` ->
  * `va_demographics.sorted_by` ->

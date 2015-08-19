@@ -52,71 +52,71 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `self_demographics.emergencycontacts[0].province` -> not used
  * `self_demographics.emergencycontacts[0].zip/post_code` -> not used
  * `self_demographics.emergencycontacts[0].email_address` -> `Patient` resource `"contact"` (array entry) `"telecom"`
- * `va_demographics.source` ->
- * `va_demographics.last_updated` ->
- * `va_demographics.sorted_by` ->
- * `va_demographics.facilities[0].va_treating_facility` ->
- * `va_demographics.facilities[0].first_name` ->
- * `va_demographics.facilities[0].middle_name` ->
- * `va_demographics.facilities[0].last_name` ->
- * `va_demographics.facilities[0].religion` ->
- * `va_demographics.facilities[0].ethnicity` ->
- * `va_demographics.facilities[0].date_of_birth` ->
- * `va_demographics.facilities[0].place_of_birth` ->
- * `va_demographics.facilities[0].age` ->
- * `va_demographics.facilities[0].gender` ->
- * `va_demographics.facilities[0].marital_status` ->
- * `va_demographics.facilities[0].permanentaddress.street_address` ->
- * `va_demographics.facilities[0].permanentaddress.street_address_2` ->
+ * `va_demographics.source` -> not used
+ * `va_demographics.last_updated` -> not used
+ * `va_demographics.sorted_by` -> not used 
+ * `va_demographics.facilities[0].va_treating_facility` -> `Patient` resource `"name"` (array entry) in `"use" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
+ * `va_demographics.facilities[0].first_name` ->  `Patient` resource `"name"` (array entry) in `"given" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
+ * `va_demographics.facilities[0].middle_name` -> `Patient` resource `"name"` (array entry) in `"given" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
+ * `va_demographics.facilities[0].last_name` ->  `Patient` resource `"name"` (array entry) in `"family" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
+ * `va_demographics.facilities[0].religion` -> not used
+ * `va_demographics.facilities[0].ethnicity` -> not used
+ * `va_demographics.facilities[0].date_of_birth` -> not used
+ * `va_demographics.facilities[0].place_of_birth` -> not used
+ * `va_demographics.facilities[0].age` -> not used
+ * `va_demographics.facilities[0].gender` -> not used
+ * `va_demographics.facilities[0].marital_status` -> not used
+ * `va_demographics.facilities[0].permanentaddress.street_address` -> `Patient` resource `"address"` (array) in `"line"` (array) `{"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `va_demographics.facilities[0].permanentaddress.street_address_2` -> `Patient` resource `"address"` (array) in `"line"` (array) `{"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
  * `va_demographics.facilities[0].permanentaddress.work_phone_number` ->
- * `va_demographics.facilities[0].permanentaddress.city` ->
- * `va_demographics.facilities[0].permanentaddress.state` ->
- * `va_demographics.facilities[0].permanentaddress.zip_code` ->
- * `va_demographics.facilities[0].permanentaddress.county` ->
- * `va_demographics.facilities[0].permanentaddress.country` ->
- * `va_demographics.facilities[0].permanentaddress.home_phone_number` ->
- * `va_demographics.facilities[0].permanentaddress.cell_phone_number` ->
- * `va_demographics.facilities[0].permanentaddress.email_address` ->
- * `va_demographics.facilities[0].eligibility.primary_eligibility_code` ->
- * `va_demographics.facilities[0].eligibility.service_connected_percentage` ->
- * `va_demographics.facilities[0].employment.employment_status` ->
- * `va_demographics.facilities[0].employment.employer_name` ->
- * `va_demographics.facilities[0].activeinsurance.insurance_company` ->
- * `va_demographics.facilities[0].activeinsurance.effective_date` ->
- * `va_demographics.facilities[0].activeinsurance.expiration_date` ->
- * `va_demographics.facilities[0].activeinsurance.group_name` ->
- * `va_demographics.facilities[0].activeinsurance.group_number` ->
- * `va_demographics.facilities[0].activeinsurance.subscriber_id` ->
- * `va_demographics.facilities[0].activeinsurance.subscriber_name` ->
- * `va_demographics.facilities[0].activeinsurance.subscriber_relationship` ->
- * `va_demographics.facilities[0].primarynextofkin.name` ->
- * `va_demographics.facilities[0].primarynextofkin.street_address` ->
- * `va_demographics.facilities[0].primarynextofkin.city` ->
- * `va_demographics.facilities[0].primarynextofkin.state` ->
- * `va_demographics.facilities[0].primarynextofkin.zip_code` ->
- * `va_demographics.facilities[0].primarynextofkin.home_phone_number` ->
- * `va_demographics.facilities[0].primarynextofkin.work_phone_number` ->
- * `va_demographics.facilities[0].emergencycontact.name` ->
- * `va_demographics.facilities[0].emergencycontact.street_address` ->
- * `va_demographics.facilities[0].emergencycontact.city` ->
- * `va_demographics.facilities[0].emergencycontact.state` ->
- * `va_demographics.facilities[0].emergencycontact.zip_code` ->
- * `va_demographics.facilities[0].emergencycontact.home_phone_number` ->
- * `va_demographics.facilities[0].emergencycontact.work_phone_number` ->
- * `va_demographics.facilities[0].vaguardian.name` ->
- * `va_demographics.facilities[0].vaguardian.street_address` ->
- * `va_demographics.facilities[0].vaguardian.city` ->
- * `va_demographics.facilities[0].vaguardian.state` ->
- * `va_demographics.facilities[0].vaguardian.zip_code` ->
- * `va_demographics.facilities[0].vaguardian.home_phone_number` ->
- * `va_demographics.facilities[0].vaguardian.work_phone_number` ->
- * `va_demographics.facilities[0].civilguardian.name` ->
- * `va_demographics.facilities[0].civilguardian.street_address` ->
- * `va_demographics.facilities[0].civilguardian.city` ->
- * `va_demographics.facilities[0].civilguardian.state` ->
- * `va_demographics.facilities[0].civilguardian.zip_code` ->
- * `va_demographics.facilities[0].civilguardian.home_phone_number` ->
- * `va_demographics.facilities[0].civilguardian.work_phone_number` ->
+ * `va_demographics.facilities[0].permanentaddress.city` -> `Patient` resource `"address"` (array) in `"city" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `va_demographics.facilities[0].permanentaddress.state` -> `Patient` resource `"address"` (array) in `"state" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `va_demographics.facilities[0].permanentaddress.zip_code` -> `Patient` resource `"address"` (array) in `"zip" {"use": "home","line": ["123 Anywhere Road", "Apt. 123"],"city": "Anywhere","state": "DC","zip": "00000"}`
+ * `va_demographics.facilities[0].permanentaddress.county` -> not used
+ * `va_demographics.facilities[0].permanentaddress.country` -> not used
+ * `va_demographics.facilities[0].permanentaddress.home_phone_number` -> `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "home"}`
+ * `va_demographics.facilities[0].permanentaddress.cell_phone_number` -> `"telecom"` (array entry) `{"system": "phone", "value": "000-555-2123", "use": "cell"}`
+ * `va_demographics.facilities[0].permanentaddress.email_address` -> `"telecom"` (array entry) `{"system": "email", "value": "000-555-2123", "use": "email"}`
+ * `va_demographics.facilities[0].eligibility.primary_eligibility_code` -> not used
+ * `va_demographics.facilities[0].eligibility.service_connected_percentage` -> not used
+ * `va_demographics.facilities[0].employment.employment_status` -> not used
+ * `va_demographics.facilities[0].employment.employer_name` -> not used
+ * `va_demographics.facilities[0].activeinsurance.insurance_company` -> not used
+ * `va_demographics.facilities[0].activeinsurance.effective_date` -> not used
+ * `va_demographics.facilities[0].activeinsurance.expiration_date` -> not used
+ * `va_demographics.facilities[0].activeinsurance.group_name` -> not used
+ * `va_demographics.facilities[0].activeinsurance.group_number` -> not used
+ * `va_demographics.facilities[0].activeinsurance.subscriber_id` -> not used
+ * `va_demographics.facilities[0].activeinsurance.subscriber_name` -> not used
+ * `va_demographics.facilities[0].activeinsurance.subscriber_relationship` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.name` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.street_address` - not used>
+ * `va_demographics.facilities[0].primarynextofkin.city` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.state` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.zip_code` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.home_phone_number` -> not used
+ * `va_demographics.facilities[0].primarynextofkin.work_phone_number` -> not used
+ * `va_demographics.facilities[0].emergencycontact.name` -> `Patient` resource `"contact"` (array entry) `"name"`
+ * `va_demographics.facilities[0].emergencycontact.street_address` -> not used
+ * `va_demographics.facilities[0].emergencycontact.city` -> not used
+ * `va_demographics.facilities[0].emergencycontact.state` -> not used
+ * `va_demographics.facilities[0].emergencycontact.zip_code` -> not used
+ * `va_demographics.facilities[0].emergencycontact.home_phone_number` -> `Patient` resource `"contact"` (array entry) `"telecom"`
+ * `va_demographics.facilities[0].emergencycontact.work_phone_number` -> `Patient` resource `"contact"` (array entry) `"telecom"`
+ * `va_demographics.facilities[0].vaguardian.name` -> not used
+ * `va_demographics.facilities[0].vaguardian.street_address` -> not used
+ * `va_demographics.facilities[0].vaguardian.city` -> not used
+ * `va_demographics.facilities[0].vaguardian.state` -> not used
+ * `va_demographics.facilities[0].vaguardian.zip_code` -> not used
+ * `va_demographics.facilities[0].vaguardian.home_phone_number` -> not used
+ * `va_demographics.facilities[0].vaguardian.work_phone_number` -> not used
+ * `va_demographics.facilities[0].civilguardian.name` -> not used
+ * `va_demographics.facilities[0].civilguardian.street_address` -> not used
+ * `va_demographics.facilities[0].civilguardian.city` -> not used
+ * `va_demographics.facilities[0].civilguardian.state` -> not used
+ * `va_demographics.facilities[0].civilguardian.zip_code` -> not used
+ * `va_demographics.facilities[0].civilguardian.home_phone_number` -> not used
+ * `va_demographics.facilities[0].civilguardian.work_phone_number` -> not used
  * `va_appointments.source` ->
  * `va_appointments.last_updated` ->
  * `va_appointments.sort_by` ->

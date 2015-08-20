@@ -117,14 +117,14 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_demographics.facilities[0].civilguardian.zip_code` -> not used
  * `va_demographics.facilities[0].civilguardian.home_phone_number` -> not used
  * `va_demographics.facilities[0].civilguardian.work_phone_number` -> not used
- * `va_appointments.source` ->
- * `va_appointments.last_updated` ->
- * `va_appointments.sort_by` ->
- * `va_appointments.pastappointments[0].date/time` ->
- * `va_appointments.pastappointments[0].location` ->
- * `va_appointments.pastappointments[0].status` ->
- * `va_appointments.pastappointments[0].clinic` ->
- * `va_appointments.pastappointments[0].phone_number` ->
+ * `va_appointments.source` -> not used
+ * `va_appointments.last_updated` -> not used
+ * `va_appointments.sort_by` -> not used
+ * `va_appointments.pastappointments[0].date/time` -> `Encounter` resource `"date"` in format: `"2014-09-30T18:09:16.976+10:00"`
+ * `va_appointments.pastappointments[0].location` -> TBD, probably `Location` resource
+ * `va_appointments.pastappointments[0].status` -> `Encounter` resource `"status"`
+ * `va_appointments.pastappointments[0].clinic` -> TBD, probably `Location` resource
+ * `va_appointments.pastappointments[0].phone_number` -> `Encounter` resource `"telecom"`
  * `va_allergies.source` ->
  * `va_allergies.last_updated` ->
  * `va_allergies.allergies[0].allergy_name` ->

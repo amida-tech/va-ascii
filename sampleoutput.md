@@ -2,7 +2,7 @@
 
 ```
 {
-    "patient": {
+    "Patient": {
         "resourceType": "Patient",
         "text": {
             "status": "generated",
@@ -198,6 +198,109 @@
             "reference": ""
         },
         "active": true
+    },
+    "Encounters": {
+        "Encounters": [{
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "08 Oct 2014 @ 1330",
+            "status": "CANCELLED",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "08 Sep 2014 @ 1215",
+            "status": "CANCELLED",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "29 Jul 2014 @ 0900",
+            "status": "APPOINTMENT NOT KEPT",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "09 Dec 2013 @ 0800",
+            "status": "APPOINTMENT NOT KEPT",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "05 Aug 2013 @ 0800",
+            "status": "CANCELLED",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "08 Jul 2013 @ 0800",
+            "status": "APPOINTMENT NOT KEPT",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "16 May 2013 @ 0800",
+            "status": "CANCELLED",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "07 Jan 2013 @ 0800",
+            "status": "APPOINTMENT NOT KEPT",
+            "class": "",
+            "subject": {
+                "reference": ""
+            }
+        }]
+    },
+    "AdverseReactionAllergies": {
+        "Allergies": [],
+        "Reactions": []
     }
 }
 ```

@@ -300,7 +300,199 @@
     },
     "AdverseReactionAllergies": {
         "Allergies": [],
-        "Reactions": []
+        "Reactions": [{
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }, {
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }, {
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }, {
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }, {
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }, {
+            "resourceType": "AdverseReaction",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "subject": {
+                "reference": ""
+            },
+            "didNotOccurFlag": false,
+            "recorder": {
+                "reference": ""
+            },
+            "symptom": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }],
+                    "text": ""
+                },
+                "severity": ""
+            }],
+            "exposure": [{
+                "date": "",
+                "type": "",
+                "substance": {
+                    "reference": ""
+                }
+            }]
+        }]
     }
 }
 ```

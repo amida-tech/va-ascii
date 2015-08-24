@@ -321,7 +321,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "ANAPHYLAXIS"
                 },
                 "severity": ""
             }],
@@ -353,7 +353,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "--"
                 },
                 "severity": ""
             }],
@@ -385,7 +385,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "RETENTION OF URINE"
                 },
                 "severity": ""
             }],
@@ -417,7 +417,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "DIZZINESS"
                 },
                 "severity": ""
             }],
@@ -449,7 +449,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "--"
                 },
                 "severity": ""
             }],
@@ -481,7 +481,7 @@
                         "code": "",
                         "display": ""
                     }],
-                    "text": ""
+                    "text": "DELIRIUM, DROWSY"
                 },
                 "severity": ""
             }],
@@ -492,6 +492,91 @@
                     "reference": ""
                 }
             }]
+        }],
+        "Substances": [{
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "IMIPRAMINE",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
+        }, {
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "TRIMETHOPRIM",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
+        }, {
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "TRAMADOL",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
+        }, {
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "TERAZOSIN",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
+        }, {
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "BACTRIM",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
+        }, {
+            "resourceType": "Substance",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "type": {
+                "text": "METHOCARBAMOL",
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            }
         }]
     }
 }

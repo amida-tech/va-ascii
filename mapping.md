@@ -127,9 +127,9 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_appointments.pastappointments[0].phone_number` -> `Encounter` resource `"telecom"`
  * `va_allergies.source` ->
  * `va_allergies.last_updated` ->
- * `va_allergies.allergies[0].allergy_name` ->
+ * `va_allergies.allergies[0].allergy_name` ->  
  * `va_allergies.allergies[0].location` ->
- * `va_allergies.allergies[0].date_entered` ->
+ * `va_allergies.allergies[0].date_entered` -> `AdverseReaction` resource `"date"` in format: `"2012-09-17"`
  * `va_allergies.allergies[0].reaction` ->
  * `va_allergies.allergies[0].allergy_type` ->
  * `va_allergies.allergies[0].va_drug_class` ->

@@ -578,6 +578,1353 @@
                 }]
             }
         }]
+    },
+    "Medication": {
+        "Medications": [{
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }]
     }
 }
 ```

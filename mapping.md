@@ -145,14 +145,14 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_medications.source` -> not used
  * `va_medications.last_updated` -> not used
  * `va_medications.sorted_by` -> not used
- * `va_medications.medications[0].medication_name` ->
- * `va_medications.medications[0].instructions[0]` ->
- * `va_medications.medications[0].status` ->
- * `va_medications.medications[0].refills_remaining` ->
+ * `va_medications.medications[0].medication_name` -> `Medication` resource `"name"`, `MedicationPrescription` resource `"medication"` ... `"display"`
+ * `va_medications.medications[0].instructions[0]` -> `MedicationPrescription` resource `"dosageInstruction"` ... `"text"`
+ * `va_medications.medications[0].status` -> `MedicationPrescription` resource `"status"`
+ * `va_medications.medications[0].refills_remaining` -> `MedicationPrescription` resource `"dispense"` ... `"numberOfRepeatsAllowed"`
  * `va_medications.medications[0].last_filled_on` ->
- * `va_medications.medications[0].initially_ordered_on` ->
+ * `va_medications.medications[0].initially_ordered_on` -> `MedicationPrescription` resource `"dispense"` ... `"validityPeriod"` ... `"start"`
  * `va_medications.medications[0].quantity` ->
- * `va_medications.medications[0].days_supply` ->
+ * `va_medications.medications[0].days_supply` -> `MedicationPrescription` resource `"dispense"` ... `"expectedSupplyDuration"` ... `"value"`
  * `va_medications.medications[0].pharmacy` ->
  * `va_medications.medications[0].prescription_number` ->
  * `self_medications.source` -> not used

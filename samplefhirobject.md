@@ -1924,6 +1924,90 @@
                     }
                 }]
             }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "Cough Medicine",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
+        }, {
+            "resourceType": "Medication",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": "Multi-vitamin",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "isBrand": true,
+            "kind": "product",
+            "product": {
+                "form": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "ingredient": [{
+                    "item": {
+                        "reference": "",
+                        "display": ""
+                    },
+                    "amount": {
+                        "numerator": {
+                            "value": 0,
+                            "units": "",
+                            "system": "",
+                            "code": ""
+                        },
+                        "denominator": {
+                            "value": 1
+                        }
+                    }
+                }]
+            }
         }],
         "MedicationPrescriptions": [{
             "resourceType": "MedicationPrescription",
@@ -4864,6 +4948,190 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 2,
+                    "units": "days",
+                    "system": "urn:oid:2.16.840.1.113883.6.8",
+                    "code": "d"
+                }
+            }
+        }, {
+            "resourceType": "MedicationPrescription",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "use": "",
+                "system": "",
+                "value": ""
+            }],
+            "dateWritten": "",
+            "status": "",
+            "patient": {
+                "reference": "",
+                "display": ""
+            },
+            "prescriber": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": "",
+                "display": ""
+            },
+            "reasonCodeableConcept": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "medication": {
+                "reference": "",
+                "display": "Cough Medicine"
+            },
+            "dosageInstruction": [{
+                "text": "",
+                "additionalInstructions": {
+                    "text": ""
+                },
+                "timingSchedule": {
+                    "event": [{
+                        "start": "",
+                        "end": ""
+                    }],
+                    "repeat": {
+                        "frequency": 0,
+                        "duration": 1,
+                        "units": ""
+                    }
+                },
+                "site": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "route": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "doseQuantity": {
+                    "value": 0,
+                    "units": "",
+                    "system": "",
+                    "code": ""
+                }
+            }],
+            "dispense": {
+                "validityPeriod": {
+                    "start": "",
+                    "end": ""
+                },
+                "numberOfRepeatsAllowed": 0,
+                "quantity": {
+                    "value": 1,
+                    "units": "",
+                    "system": "",
+                    "code": ""
+                },
+                "expectedSupplyDuration": {
+                    "value": 0,
+                    "units": "days",
+                    "system": "urn:oid:2.16.840.1.113883.6.8",
+                    "code": "d"
+                }
+            }
+        }, {
+            "resourceType": "MedicationPrescription",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "use": "",
+                "system": "",
+                "value": ""
+            }],
+            "dateWritten": "",
+            "status": "",
+            "patient": {
+                "reference": "",
+                "display": ""
+            },
+            "prescriber": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": "",
+                "display": ""
+            },
+            "reasonCodeableConcept": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "medication": {
+                "reference": "",
+                "display": "Multi-vitamin"
+            },
+            "dosageInstruction": [{
+                "text": "",
+                "additionalInstructions": {
+                    "text": ""
+                },
+                "timingSchedule": {
+                    "event": [{
+                        "start": "",
+                        "end": ""
+                    }],
+                    "repeat": {
+                        "frequency": 0,
+                        "duration": 1,
+                        "units": ""
+                    }
+                },
+                "site": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "route": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "doseQuantity": {
+                    "value": 0,
+                    "units": "",
+                    "system": "",
+                    "code": ""
+                }
+            }],
+            "dispense": {
+                "validityPeriod": {
+                    "start": "",
+                    "end": ""
+                },
+                "numberOfRepeatsAllowed": 0,
+                "quantity": {
+                    "value": 1,
+                    "units": "",
+                    "system": "",
+                    "code": ""
+                },
+                "expectedSupplyDuration": {
+                    "value": 0,
                     "units": "days",
                     "system": "urn:oid:2.16.840.1.113883.6.8",
                     "code": "d"

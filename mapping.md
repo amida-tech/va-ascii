@@ -157,7 +157,7 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_medications.medications[0].prescription_number` ->
  * `self_medications.source` -> not used
  * `self_medications.medications[0].medication_category` ->
- * `self_medications.medications[0].drug_name` ->
+ * `self_medications.medications[0].drug_name` -> `Medication` resource `"name"`, `MedicationPrescription` resource `"medication"` ... `"display"`
  * `self_medications.medications[0].prescription_number` ->
  * `self_medications.medications[0].strength` ->
  * `self_medications.medications[0].dose` ->

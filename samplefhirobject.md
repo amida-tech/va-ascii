@@ -2096,9 +2096,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2188,9 +2188,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 1,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2280,9 +2280,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2372,9 +2372,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2464,9 +2464,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2556,9 +2556,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2648,9 +2648,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2740,9 +2740,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 2,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2832,9 +2832,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 50,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -2924,9 +2924,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3016,9 +3016,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3108,9 +3108,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3200,9 +3200,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3292,9 +3292,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3384,9 +3384,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3476,9 +3476,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3568,9 +3568,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 60,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3660,9 +3660,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3752,9 +3752,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 45,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3844,9 +3844,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -3936,9 +3936,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 60,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4028,9 +4028,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 50,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4120,9 +4120,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4212,9 +4212,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4304,9 +4304,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4396,9 +4396,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4488,9 +4488,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4580,9 +4580,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4672,9 +4672,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 45,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4764,9 +4764,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 30,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4856,9 +4856,9 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 90,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
         }, {
@@ -4948,70 +4948,29 @@
                 },
                 "expectedSupplyDuration": {
                     "value": 2,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
+                    "units": "",
+                    "system": "",
+                    "code": ""
                 }
             }
-        }, {
-            "resourceType": "MedicationPrescription",
+        }],
+        "MedicationStatements": [{
+            "resourceType": "MedicationStatement",
             "text": {
                 "status": "generated",
                 "div": ""
             },
-            "identifier": [{
-                "use": "",
-                "system": "",
-                "value": ""
-            }],
-            "dateWritten": "",
-            "status": "",
             "patient": {
-                "reference": "",
-                "display": ""
+                "reference": ""
             },
-            "prescriber": {
-                "reference": "",
-                "display": ""
-            },
-            "encounter": {
-                "reference": "",
-                "display": ""
-            },
-            "reasonCodeableConcept": {
-                "coding": [{
-                    "system": "",
-                    "code": "",
-                    "display": ""
-                }]
+            "whenGiven": {
+                "start": "01 Feb 2010",
+                "end": "21 Feb 2010"
             },
             "medication": {
-                "reference": "",
-                "display": "Cough Medicine"
+                "reference": ""
             },
-            "dosageInstruction": [{
-                "text": "",
-                "additionalInstructions": {
-                    "text": ""
-                },
-                "timingSchedule": {
-                    "event": [{
-                        "start": "",
-                        "end": ""
-                    }],
-                    "repeat": {
-                        "frequency": 0,
-                        "duration": 1,
-                        "units": ""
-                    }
-                },
-                "site": {
-                    "coding": [{
-                        "system": "",
-                        "code": "",
-                        "display": ""
-                    }]
-                },
+            "dosage": [{
                 "route": {
                     "coding": [{
                         "system": "",
@@ -5019,91 +4978,30 @@
                         "display": ""
                     }]
                 },
-                "doseQuantity": {
-                    "value": 0,
-                    "units": "",
-                    "system": "",
-                    "code": ""
-                }
-            }],
-            "dispense": {
-                "validityPeriod": {
-                    "start": "",
-                    "end": ""
-                },
-                "numberOfRepeatsAllowed": 0,
                 "quantity": {
                     "value": 1,
                     "units": "",
                     "system": "",
                     "code": ""
-                },
-                "expectedSupplyDuration": {
-                    "value": 0,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
                 }
-            }
+            }]
         }, {
-            "resourceType": "MedicationPrescription",
+            "resourceType": "MedicationStatement",
             "text": {
                 "status": "generated",
                 "div": ""
             },
-            "identifier": [{
-                "use": "",
-                "system": "",
-                "value": ""
-            }],
-            "dateWritten": "",
-            "status": "",
             "patient": {
-                "reference": "",
-                "display": ""
+                "reference": ""
             },
-            "prescriber": {
-                "reference": "",
-                "display": ""
-            },
-            "encounter": {
-                "reference": "",
-                "display": ""
-            },
-            "reasonCodeableConcept": {
-                "coding": [{
-                    "system": "",
-                    "code": "",
-                    "display": ""
-                }]
+            "whenGiven": {
+                "start": "18 Mar 2010",
+                "end": ""
             },
             "medication": {
-                "reference": "",
-                "display": "Multi-vitamin"
+                "reference": ""
             },
-            "dosageInstruction": [{
-                "text": "",
-                "additionalInstructions": {
-                    "text": ""
-                },
-                "timingSchedule": {
-                    "event": [{
-                        "start": "",
-                        "end": ""
-                    }],
-                    "repeat": {
-                        "frequency": 0,
-                        "duration": 1,
-                        "units": ""
-                    }
-                },
-                "site": {
-                    "coding": [{
-                        "system": "",
-                        "code": "",
-                        "display": ""
-                    }]
-                },
+            "dosage": [{
                 "route": {
                     "coding": [{
                         "system": "",
@@ -5111,32 +5009,13 @@
                         "display": ""
                     }]
                 },
-                "doseQuantity": {
-                    "value": 0,
-                    "units": "",
-                    "system": "",
-                    "code": ""
-                }
-            }],
-            "dispense": {
-                "validityPeriod": {
-                    "start": "",
-                    "end": ""
-                },
-                "numberOfRepeatsAllowed": 0,
                 "quantity": {
                     "value": 1,
                     "units": "",
                     "system": "",
                     "code": ""
-                },
-                "expectedSupplyDuration": {
-                    "value": 0,
-                    "units": "days",
-                    "system": "urn:oid:2.16.840.1.113883.6.8",
-                    "code": "d"
                 }
-            }
+            }]
         }]
     }
 }

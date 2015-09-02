@@ -149,25 +149,25 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_medications.medications[0].instructions[0]` -> `MedicationPrescription` resource `"dosageInstruction"` ... `"text"`
  * `va_medications.medications[0].status` -> `MedicationPrescription` resource `"status"`
  * `va_medications.medications[0].refills_remaining` -> `MedicationPrescription` resource `"dispense"` ... `"numberOfRepeatsAllowed"`
- * `va_medications.medications[0].last_filled_on` ->
+ * `va_medications.medications[0].last_filled_on` -> not used
  * `va_medications.medications[0].initially_ordered_on` -> `MedicationPrescription` resource `"dispense"` ... `"validityPeriod"` ... `"start"`
- * `va_medications.medications[0].quantity` ->
+ * `va_medications.medications[0].quantity` -> not used
  * `va_medications.medications[0].days_supply` -> `MedicationPrescription` resource `"dispense"` ... `"expectedSupplyDuration"` ... `"value"`
- * `va_medications.medications[0].pharmacy` ->
- * `va_medications.medications[0].prescription_number` ->
+ * `va_medications.medications[0].pharmacy` -> not used
+ * `va_medications.medications[0].prescription_number` -> not used
  * `self_medications.source` -> not used
- * `self_medications.medications[0].medication_category` ->
- * `self_medications.medications[0].drug_name` -> `Medication` resource `"name"`, `MedicationPrescription` resource `"medication"` ... `"display"`
- * `self_medications.medications[0].prescription_number` ->
- * `self_medications.medications[0].strength` ->
- * `self_medications.medications[0].dose` ->
- * `self_medications.medications[0].frequency` ->
- * `self_medications.medications[0].start_date` ->
- * `self_medications.medications[0].stop_date` ->
- * `self_medications.medications[0].pharmacy_name` ->
- * `self_medications.medications[0].pharmacy_phone` ->
- * `self_medications.medications[0].reason_for_taking` ->
- * `self_medications.medications[0].comments` ->
+ * `self_medications.medications[0].medication_category` -> not used
+ * `self_medications.medications[0].drug_name` -> `Medication` resource `"name"`
+ * `self_medications.medications[0].prescription_number` -> not used
+ * `self_medications.medications[0].strength` -> not used
+ * `self_medications.medications[0].dose` -> not used
+ * `self_medications.medications[0].frequency` -> not used
+ * `self_medications.medications[0].start_date` -> `MedicationStatement` resource `"whenGiven"` ... `"start"`
+ * `self_medications.medications[0].stop_date` -> `MedicationStatement` resource `"whenGiven"` ... `"end"`
+ * `self_medications.medications[0].pharmacy_name` -> not used
+ * `self_medications.medications[0].pharmacy_phone` -> not used
+ * `self_medications.medications[0].reason_for_taking` -> not used
+ * `self_medications.medications[0].comments` -> not used
  * `va_problems.source` -> not used
  * `va_problems.last_updated` -> not used
  * `va_problems.sorted_by` -> not used

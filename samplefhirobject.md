@@ -5176,6 +5176,369 @@
             "lotNumber": "",
             "expirationDate": ""
         }]
+    },
+    "Condition": {
+        "Conditions": [{
+            "resourceType": "Condition",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": ""
+            },
+            "asserter": {
+                "reference": ""
+            },
+            "dateAsserted": "11 Feb 2013 @ 1200",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": "Posttraumatic Stress Disorder (ICD-9-CM 309.81)"
+                }]
+            },
+            "category": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "55607006",
+                    "display": "Problem"
+                }, {
+                    "system": "http://hl7.org/fhir/condition-category",
+                    "code": "condition"
+                }]
+            },
+            "status": "ACTIVE",
+            "severity": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "onsetDate": "",
+            "evidence": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "detail": [{
+                    "reference": "",
+                    "display": ""
+                }]
+            }],
+            "location": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                }
+            }],
+            "relatedItem": [{
+                "type": "",
+                "target": {
+                    "reference": "",
+                    "display": ""
+                }
+            }]
+        }, {
+            "resourceType": "Condition",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": ""
+            },
+            "asserter": {
+                "reference": ""
+            },
+            "dateAsserted": "16 Jan 2013 @ 1200",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": "MILD COGNITIVE IMPAIRMENT (ICD-9-CM 799.9)"
+                }]
+            },
+            "category": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "55607006",
+                    "display": "Problem"
+                }, {
+                    "system": "http://hl7.org/fhir/condition-category",
+                    "code": "condition"
+                }]
+            },
+            "status": "ACTIVE",
+            "severity": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "onsetDate": "",
+            "evidence": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "detail": [{
+                    "reference": "",
+                    "display": ""
+                }]
+            }],
+            "location": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                }
+            }],
+            "relatedItem": [{
+                "type": "",
+                "target": {
+                    "reference": "",
+                    "display": ""
+                }
+            }]
+        }, {
+            "resourceType": "Condition",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": ""
+            },
+            "asserter": {
+                "reference": ""
+            },
+            "dateAsserted": "07 Dec 2012 @ 1200",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": "Diabetes with neurological Manifestations, type i [Juvenile type], not stated as (ICD-9-CM 250.61)"
+                }]
+            },
+            "category": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "55607006",
+                    "display": "Problem"
+                }, {
+                    "system": "http://hl7.org/fhir/condition-category",
+                    "code": "condition"
+                }]
+            },
+            "status": "ACTIVE",
+            "severity": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "onsetDate": "",
+            "evidence": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "detail": [{
+                    "reference": "",
+                    "display": ""
+                }]
+            }],
+            "location": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                }
+            }],
+            "relatedItem": [{
+                "type": "",
+                "target": {
+                    "reference": "",
+                    "display": ""
+                }
+            }]
+        }, {
+            "resourceType": "Condition",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": ""
+            },
+            "asserter": {
+                "reference": ""
+            },
+            "dateAsserted": "07 Dec 2012 @ 1200",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": "Hyperlipidemia (ICD-9-CM 272.4)"
+                }]
+            },
+            "category": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "55607006",
+                    "display": "Problem"
+                }, {
+                    "system": "http://hl7.org/fhir/condition-category",
+                    "code": "condition"
+                }]
+            },
+            "status": "ACTIVE",
+            "severity": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "onsetDate": "",
+            "evidence": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "detail": [{
+                    "reference": "",
+                    "display": ""
+                }]
+            }],
+            "location": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                }
+            }],
+            "relatedItem": [{
+                "type": "",
+                "target": {
+                    "reference": "",
+                    "display": ""
+                }
+            }]
+        }, {
+            "resourceType": "Condition",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "encounter": {
+                "reference": ""
+            },
+            "asserter": {
+                "reference": ""
+            },
+            "dateAsserted": "07 Dec 2012 @ 1200",
+            "code": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": "TRAUMATIC BRAIN INJURY (ICD-9-CM 799.9)"
+                }]
+            },
+            "category": {
+                "coding": [{
+                    "system": "http://snomed.info/sct",
+                    "code": "55607006",
+                    "display": "Problem"
+                }, {
+                    "system": "http://hl7.org/fhir/condition-category",
+                    "code": "condition"
+                }]
+            },
+            "status": "ACTIVE",
+            "severity": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "onsetDate": "",
+            "evidence": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                },
+                "detail": [{
+                    "reference": "",
+                    "display": ""
+                }]
+            }],
+            "location": [{
+                "code": {
+                    "coding": [{
+                        "system": "",
+                        "code": "",
+                        "display": ""
+                    }]
+                }
+            }],
+            "relatedItem": [{
+                "type": "",
+                "target": {
+                    "reference": "",
+                    "display": ""
+                }
+            }]
+        }]
     }
 }
 ```

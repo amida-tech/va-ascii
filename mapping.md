@@ -17,7 +17,7 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `self_demographics.suffix` -> not used
  * `self_demographics.alias` -> not used
  * `self_demographics.relationship_to_va` -> not used
- * `self_demographics.gender` -> TODO
+ * `self_demographics.gender` -> `Patient` resource `"gender"` (array entry) in `"coding"` `"display"`
  * `self_demographics.bloodtype` -> not used
  * `self_demographics.organdonor` -> not used
  * `self_demographics.date_of_birth` -> `Patient` resource `"birthDate"` (TODO: match FHIR formatting)

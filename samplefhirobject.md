@@ -68,7 +68,9 @@
             "use": "email"
         }],
         "gender": {
-            "coding": []
+            "coding": [{
+                "display": "Male"
+            }]
         },
         "birthDate": "",
         "deceasedBoolean": false,

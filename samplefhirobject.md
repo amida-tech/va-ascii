@@ -5019,6 +5019,163 @@
                 }
             }]
         }]
+    },
+    "Immunization": {
+        "Immunizations": [{
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "07 Jan 2013",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }, {
+            "resourceType": "Immunization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "18 Jul 2010",
+            "vaccineType": {
+                "coding": [{
+                    "code": ""
+                }]
+            },
+            "subject": {
+                "reference": ""
+            },
+            "refusedIndicator": false,
+            "reported": false,
+            "performer": {
+                "reference": ""
+            },
+            "lotNumber": "",
+            "expirationDate": ""
+        }]
     }
 }
 ```

@@ -202,20 +202,20 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_immunizations.sorted_by` -> not used
  * `va_immunizations.summary[0].immunization` -> not used
  * `va_immunizations.summary[0].date` -> not used
- * `va_immunizations.immunizations[0].immunization_name` -> 
+ * `va_immunizations.immunizations[0].immunization_name` -> `Immunization` resource `"vaccineType"` ... `"coding"` ... `"text"`
  * `va_immunizations.immunizations[0].date_received:` -> `Immunization` resource `"date"` in format `"2013-01-01"`
- * `va_immunizations.immunizations[0].location` -> 
- * `va_immunizations.immunizations[0].reaction` -> 
- * `va_immunizations.immunizations[0].comments` ->
- * `va_immunizations.immunizations[0].reaction_key` ->
+ * `va_immunizations.immunizations[0].location` -> not used
+ * `va_immunizations.immunizations[0].reaction` -> not used
+ * `va_immunizations.immunizations[0].comments` -> not used
+ * `va_immunizations.immunizations[0].reaction_key` -> not used
  * `self_immunizations.source` -> not used
  * `self_immunizations.lastkey` -> not used
- * `self_immunizations.immunizations[0].immunization_name` ->
- * `self_immunizations.immunizations[0].other` ->
- * `self_immunizations.immunizations[0].method` ->
+ * `self_immunizations.immunizations[0].immunization_name` -> `Immunization` resource `"vaccineType"` ... `"coding"` ... `"text"`
+ * `self_immunizations.immunizations[0].other` -> not used
+ * `self_immunizations.immunizations[0].method` -> not used
  * `self_immunizations.immunizations[0].date_received` -> `Immunization` resource `"date"` in format `"2013-01-01"`
- * `self_immunizations.immunizations[0].reactions` ->
- * `self_immunizations.immunizations[0].comments` ->
+ * `self_immunizations.immunizations[0].reactions` -> not used
+ * `self_immunizations.immunizations[0].comments` -> not used
  * `va_labs.source` -> not used
  * `va_labs.newtest` -> not used
  * `va_labs.newlab` -> not used

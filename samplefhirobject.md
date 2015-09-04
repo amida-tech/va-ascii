@@ -298,6 +298,25 @@
             "subject": {
                 "reference": ""
             }
+        }, {
+            "resourceType": "Encounter",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "date": "10 Dec 2012 @ 0935",
+            "status": "",
+            "class": "",
+            "subject": {
+                "reference": ""
+            },
+            "reason": {
+                "text": "DISCHARGE SUMMARY, LOCAL TITLE: Discharge Summary, STANDARD TITLE: DISCHARGE SUMMARY, DICT DATE: DEC 10, 2012@10:40     ENTRY DATE: DEC 10, 2012@10:41: 06, DICTATED BY: PROVIDER, ONE          ATTENDING: PROVIDER, ONE, URGENCY: routine                    STATUS: COMPLETED, THIS IS ONLY A TEST, ATTENDING PHYSICIAN: , PRIMARY CARE PROVIDER AND FACILIITY: , PRINCIPAL DIAGNOSIS: , OTHER DIAGNOSES TREATED OR IMPACTING TREATMENT THIS ADMISSION: , PROCEDURES PERFORMED AT THIS HOSPITAL DURING CURRENT ADMISSION: , SUMMARY: , (ABBREVIATED HPI, PE, AND PERTINENT LABS), HOSPITAL COURSE: , FUNCTIONAL STATUS: , (MAY INCLUDE ACTIVITY LEVEL, WORK RESTRICTIONS, OR DIET), DISCHARGE MEDICATIONS: , (INDICATE ADDITIONS OR CHANGES WITH AN ASTERISK), MEDICATIONS THAT HAVE BEEN DISCONTINUED: , CLINICAL ISSUES REQUIRING FOLLOW UP DURING PC PHONE APT: , 1., 2., 3., ADDITIONAL FOLLOW UP APPOINTMENTS: , SPECIALTY               EXPECTED DATE   SCHEDULED(Y/N)  POINT OF CONTACT, 1., 2., 3., FOLLOW UP LABS INCLUDING PATHOLOGY & MICROBIOLOGY: , TEST                    ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED, 1., 2., 3., FOLLOW UP IMAGING AND PROCEDURES: , PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED, 1., 2., 3., /es/ ONE PROVIDER MD, CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST, Signed: 12/10/2012 16: 15, for TWO PROVIDER MD, INTERNAL MEDICINE RESIDENT"
+            },
+            "period": {
+                "start": "10 Dec 2012 @ 0935",
+                "end": "11 Dec 2012 @ 1134"
+            }
         }]
     },
     "AdverseReactionAllergies": {

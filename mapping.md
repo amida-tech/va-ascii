@@ -173,19 +173,19 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_problems.sorted_by` -> not used
  * `va_problems.problems[0].problem` -> `Condition` resource `"coding"` ... `"code"` ... `"display"`
  * `va_problems.problems[0].date/time_entered` -> `Condition` resource `"dateAsserted"`
- * `va_problems.problems[0].location` ->
+ * `va_problems.problems[0].location` -> not used
  * `va_problems.problems[0].status` -> `Condition` resource `"status"`
- * `va_problems.problems[0].provider` ->
+ * `va_problems.problems[0].provider` -> not used
  * `va_problems.problems[0].comments[0]` -> not used
  * `va_admission_discharge.source` -> not used
  * `va_admission_discharge.last_updated` -> not used
  * `va_admission_discharge.sorted_by` -> not used
- * `va_admission_discharge.admindischarge[0].admission_date` ->
+ * `va_admission_discharge.admindischarge[0].admission_date` -> `Encounter` resource `date` and `period` ... `start`
  * `va_admission_discharge.admindischarge[0].location` ->
  * `va_admission_discharge.admindischarge[0].admitting_physician` ->
- * `va_admission_discharge.admindischarge[0].discharge_date` ->
+ * `va_admission_discharge.admindischarge[0].discharge_date` -> `Encounter` resource `period` ... `end`
  * `va_admission_discharge.admindischarge[0].discharge_physician` ->
- * `va_admission_discharge.admindischarge[0].summary[0]` ->
+ * `va_admission_discharge.admindischarge[0].summary[0]` -> `Encounter` resource `reason` ... `text` (joined)
  * `va_notes.source` -> not used
  * `va_notes.last_updated` -> not used
  * `va_notes.sorted_by` -> not used

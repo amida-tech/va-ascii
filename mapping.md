@@ -243,15 +243,15 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `self_labs.tests[0].comments` ->
  * `va_vitals.source` -> not used
  * `va_vitals.last_updated` ->
- * `va_vitals.summary[0].vital_sign` ->
- * `va_vitals.summary[0].reading` ->
- * `va_vitals.summary[0].date` ->
+ * `va_vitals.summary[0].vital_sign` -> not used (duplicate data)
+ * `va_vitals.summary[0].reading` -> not used (duplicate date)
+ * `va_vitals.summary[0].date` -> not used (duplicate data)
  * `va_vitals.sorted_by` -> not used
- * `va_vitals.vitals[0].vital_sign` ->
+ * `va_vitals.vitals[0].vital_sign` -> `Observation` resource `"name"` ... `"text"`
  * `va_vitals.vitals[0].measurement` ->
- * `va_vitals.vitals[0].comments` ->
+ * `va_vitals.vitals[0].comments` -> not used
  * `va_vitals.vitals[0].location` ->
- * `va_vitals.vitals[0].date/time_collected` ->
+ * `va_vitals.vitals[0].date/time_collected` -> `Observation` resource `"issued"`
  * `self_vitals.source` -> not used
  * `self_vitals.vitals[0].measurement_type` ->
  * `self_vitals.vitals[0].date` ->

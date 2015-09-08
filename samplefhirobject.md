@@ -639,6 +639,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -651,6 +658,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -663,6 +677,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -675,6 +696,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -687,6 +715,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -699,6 +734,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -711,6 +753,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }, {
         "resourceType": "Encounter",
@@ -723,6 +772,13 @@
         "class": "",
         "subject": {
             "reference": ""
+        },
+        "reason": {
+            "text": ""
+        },
+        "period": {
+            "start": "",
+            "end": ""
         }
     }],
     "Allergies": [],

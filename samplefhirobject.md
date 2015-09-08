@@ -3,203 +3,239 @@
 ```
 {
     "Patient": {
-        "resourceType": "Patient",
-        "text": {
-            "status": "generated",
-            "div": ""
-        },
-        "identifier": [],
-        "name": [{
-            "use": "self",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "SPOKANE_VAMC",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }, {
-            "use": "PORTLAND,_OREGON_VA_MEDICAL_CENTER",
-            "family": ["MHVTESTVETERAN"],
-            "given": ["ONE"]
-        }],
-        "telecom": [{
-            "system": "phone",
-            "value": "000-555-2123",
-            "use": "home"
-        }, {
-            "system": "phone",
-            "value": "000-555-4100",
-            "use": "work"
-        }, {
-            "system": "phone",
-            "value": "000-555-0303",
-            "use": "cell"
-        }, {
-            "system": "fax",
-            "value": "000-555-4110",
-            "use": "fax"
-        }, {
-            "system": "pager",
-            "value": "000-555-2020",
-            "use": "pager"
-        }, {
-            "system": "phone",
-            "value": "000-555-2123",
-            "use": "home"
-        }, {
-            "system": "email",
-            "value": "mhvveteran@emailaddress.com",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }, {
-            "system": "email",
-            "value": "MHVVETERAN@EMAILADDRESS.COM",
-            "use": "email"
-        }],
-        "gender": {
-            "coding": [{
-                "display": "Male"
-            }]
-        },
-        "birthDate": "",
-        "deceasedBoolean": false,
-        "address": [{
-            "use": "home",
-            "line": ["123 Anywhere Road", "Apt. 123"],
-            "city": "Anywhere",
-            "state": "DC",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }, {
-            "use": "home",
-            "line": ["123 ANYWHERE RD", "APT 123"],
-            "city": "WASHINGTON",
-            "state": "DISTRICT OF COLUMBIA",
-            "zip": "00000"
-        }],
-        "contact": [{
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVeteran"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["Two"]
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
             },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "VA SOUTHERN OREGON REHABILITATION CENTER CLINICS"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "SPOKANE VAMC"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }],
+        "Patient": {
+            "resourceType": "Patient",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [],
+            "name": [{
+                "use": "self",
+                "family": ["MHVTESTVETERAN"],
+                "given": ["ONE"]
+            }, {
+                "use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS",
+                "family": ["MHVTESTVETERAN"],
+                "given": ["ONE"]
+            }, {
+                "use": "SPOKANE_VAMC",
+                "family": ["MHVTESTVETERAN"],
+                "given": ["ONE"]
+            }, {
+                "use": "PORTLAND,_OREGON_VA_MEDICAL_CENTER",
+                "family": ["MHVTESTVETERAN"],
+                "given": ["ONE"]
+            }],
             "telecom": [{
                 "system": "phone",
-                "value": "000-555-2121",
+                "value": "000-555-2123",
                 "use": "home"
             }, {
                 "system": "phone",
-                "value": "000-555-1000",
+                "value": "000-555-4100",
                 "use": "work"
             }, {
                 "system": "phone",
-                "value": "000-555-1855",
+                "value": "000-555-0303",
                 "use": "cell"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
-            }],
-            "name": {
-                "family": ["MHVVeteran"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["Three"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-555-2339",
-                "use": "home"
+            }, {
+                "system": "fax",
+                "value": "000-555-4110",
+                "use": "fax"
+            }, {
+                "system": "pager",
+                "value": "000-555-2020",
+                "use": "pager"
             }, {
                 "system": "phone",
-                "value": "000-555-5000",
-                "use": "work"
+                "value": "000-555-2123",
+                "use": "home"
             }, {
-                "system": "phone",
-                "value": "000-555-1458",
-                "use": "cell"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
+                "system": "email",
+                "value": "mhvveteran@emailaddress.com",
+                "use": "email"
+            }, {
+                "system": "email",
+                "value": "MHVVETERAN@EMAILADDRESS.COM",
+                "use": "email"
+            }, {
+                "system": "email",
+                "value": "MHVVETERAN@EMAILADDRESS.COM",
+                "use": "email"
+            }, {
+                "system": "email",
+                "value": "MHVVETERAN@EMAILADDRESS.COM",
+                "use": "email"
             }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["TWO"]
+            "gender": {
+                "coding": [{
+                    "display": "Male"
+                }]
             },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
+            "birthDate": "",
+            "deceasedBoolean": false,
+            "address": [{
+                "use": "home",
+                "line": ["123 Anywhere Road", "Apt. 123"],
+                "city": "Anywhere",
+                "state": "DC",
+                "zip": "00000"
+            }, {
+                "use": "home",
+                "line": ["123 ANYWHERE RD", "APT 123"],
+                "city": "WASHINGTON",
+                "state": "DISTRICT OF COLUMBIA",
+                "zip": "00000"
+            }, {
+                "use": "home",
+                "line": ["123 ANYWHERE RD", "APT 123"],
+                "city": "WASHINGTON",
+                "state": "DISTRICT OF COLUMBIA",
+                "zip": "00000"
+            }, {
+                "use": "home",
+                "line": ["123 ANYWHERE RD", "APT 123"],
+                "city": "WASHINGTON",
+                "state": "DISTRICT OF COLUMBIA",
+                "zip": "00000"
             }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
+            "contact": [{
+                "relationship": [{
+                    "coding": []
                 }],
-                "given": ["TWO"]
-            },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }, {
-            "relationship": [{
-                "coding": []
+                "name": {
+                    "family": ["MHVVeteran"],
+                    "_family": [{
+                        "extension": []
+                    }],
+                    "given": ["Two"]
+                },
+                "telecom": [{
+                    "system": "phone",
+                    "value": "000-555-2121",
+                    "use": "home"
+                }, {
+                    "system": "phone",
+                    "value": "000-555-1000",
+                    "use": "work"
+                }, {
+                    "system": "phone",
+                    "value": "000-555-1855",
+                    "use": "cell"
+                }]
+            }, {
+                "relationship": [{
+                    "coding": []
+                }],
+                "name": {
+                    "family": ["MHVVeteran"],
+                    "_family": [{
+                        "extension": []
+                    }],
+                    "given": ["Three"]
+                },
+                "telecom": [{
+                    "system": "phone",
+                    "value": "000-555-2339",
+                    "use": "home"
+                }, {
+                    "system": "phone",
+                    "value": "000-555-5000",
+                    "use": "work"
+                }, {
+                    "system": "phone",
+                    "value": "000-555-1458",
+                    "use": "cell"
+                }]
+            }, {
+                "relationship": [{
+                    "coding": []
+                }],
+                "name": {
+                    "family": ["MHVVETERAN"],
+                    "_family": [{
+                        "extension": []
+                    }],
+                    "given": ["TWO"]
+                },
+                "telecom": [{
+                    "system": "phone",
+                    "value": "000-444-1952",
+                    "use": "home"
+                }]
+            }, {
+                "relationship": [{
+                    "coding": []
+                }],
+                "name": {
+                    "family": ["MHVVETERAN"],
+                    "_family": [{
+                        "extension": []
+                    }],
+                    "given": ["TWO"]
+                },
+                "telecom": [{
+                    "system": "phone",
+                    "value": "000-444-1952",
+                    "use": "home"
+                }]
+            }, {
+                "relationship": [{
+                    "coding": []
+                }],
+                "name": {
+                    "family": ["MHVVETERAN"],
+                    "_family": [{
+                        "extension": []
+                    }],
+                    "given": ["TWO"]
+                },
+                "telecom": [{
+                    "system": "phone",
+                    "value": "000-444-1952",
+                    "use": "home"
+                }]
             }],
-            "name": {
-                "family": ["MHVVETERAN"],
-                "_family": [{
-                    "extension": []
-                }],
-                "given": ["TWO"]
+            "managingOrganization": {
+                "reference": ""
             },
-            "telecom": [{
-                "system": "phone",
-                "value": "000-444-1952",
-                "use": "home"
-            }]
-        }],
-        "managingOrganization": {
-            "reference": ""
-        },
-        "active": true
+            "active": true
+        }
     },
     "Encounters": {
         "Encounters": [{
@@ -317,6 +353,106 @@
                 "start": "10 Dec 2012 @ 0935",
                 "end": "11 Dec 2012 @ 1134"
             }
+        }],
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "BEND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
         }]
     },
     "AdverseReactionAllergies": {
@@ -598,6 +734,73 @@
                     "display": ""
                 }]
             }
+        }],
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
         }]
     },
     "Medication": {
@@ -5194,6 +5397,62 @@
             },
             "lotNumber": "",
             "expirationDate": ""
+        }],
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND (OR) VAMC"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND (OR) VAMC"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND (OR) VAMC"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND (OR) VAMC"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND (OR) VAMC"
         }]
     },
     "Condition": {
@@ -5557,6 +5816,62 @@
                     "display": ""
                 }
             }]
+        }],
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
         }]
     },
     "Observation": {
@@ -7120,13 +7435,1856 @@
                     "units": ""
                 }
             }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood pressure"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Aug 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood pressure"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Aug 2010 1730",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood pressure"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1940",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood pressure"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Heart rate"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Jun 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Heart rate"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1900",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Heart rate"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body weight"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Apr 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body weight"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 May 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body weight"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Jun 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body weight"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1900",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body weight"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body temperature"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Mar 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body temperature"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1900",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Body temperature"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Pain"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Jan 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Pain"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1900",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Pain"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood sugar"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "02 Jan 2010 1720",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood sugar"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "06 Jan 2013 1900",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "Blood sugar"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "07 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }, {
+            "resourceType": "Observation",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "name": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }, {
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }],
+                "text": "INR"
+            },
+            "valueQuantity": {
+                "value": 0,
+                "units": "",
+                "system": "",
+                "code": ""
+            },
+            "interpretation": {
+                "coding": [{
+                    "system": "",
+                    "code": ""
+                }]
+            },
+            "issued": "08 Jan 2013 2359",
+            "status": "",
+            "reliability": "",
+            "bodySite": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "method": {
+                "coding": [{
+                    "system": "",
+                    "code": "",
+                    "display": ""
+                }]
+            },
+            "subject": {
+                "reference": "",
+                "display": ""
+            },
+            "performer": [{
+                "reference": ""
+            }],
+            "referenceRange": [{
+                "low": {
+                    "value": 0,
+                    "units": ""
+                }
+            }]
+        }],
+        "Organizations": [{
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "PORTLAND, OREGON VA MEDICAL CENTER"
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": ""
+        }, {
+            "resourceType": "Organization",
+            "text": {
+                "status": "generated",
+                "div": ""
+            },
+            "identifier": [{
+                "system": "",
+                "value": ""
+            }],
+            "name": "Non VA Provider"
         }]
-    },
-    "Performer": {
-        "Performers": []
-    },
-    "Location": {
-        "Locations": []
     }
 }
 ```

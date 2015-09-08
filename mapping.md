@@ -55,7 +55,7 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_demographics.source` -> not used
  * `va_demographics.last_updated` -> not used
  * `va_demographics.sorted_by` -> not used 
- * `va_demographics.facilities[0].va_treating_facility` -> `Patient` resource `"name"` (array entry) in `"use" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
+ * `va_demographics.facilities[0].va_treating_facility` -> `Patient` resource `"name"` (array entry) in `"use" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`, `Organization` resource `"name"`
  * `va_demographics.facilities[0].first_name` ->  `Patient` resource `"name"` (array entry) in `"given" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
  * `va_demographics.facilities[0].middle_name` -> `Patient` resource `"name"` (array entry) in `"given" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
  * `va_demographics.facilities[0].last_name` ->  `Patient` resource `"name"` (array entry) in `"family" {"use": "VA_SOUTHERN_OREGON_REHABILITATION_CENTER_CLINICS","family": ["MHVTESTVETERAN"],"given": ["ONE"]}`
@@ -121,14 +121,14 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_appointments.last_updated` -> not used
  * `va_appointments.sort_by` -> not used
  * `va_appointments.pastappointments[0].date/time` -> `Encounter` resource `"date"` in format: `"2014-09-30T18:09:16.976+10:00"`
- * `va_appointments.pastappointments[0].location` -> TBD, probably `Location` resource
+ * `va_appointments.pastappointments[0].location` -> `Organization` resource `"name"`
  * `va_appointments.pastappointments[0].status` -> `Encounter` resource `"status"`
- * `va_appointments.pastappointments[0].clinic` -> TBD, probably `Location` resource
+ * `va_appointments.pastappointments[0].clinic` ->
  * `va_appointments.pastappointments[0].phone_number` -> `Encounter` resource `"telecom"`
  * `va_allergies.source` -> not used
  * `va_allergies.last_updated` -> not used
  * `va_allergies.allergies[0].allergy_name` -> 
- * `va_allergies.allergies[0].location` ->
+ * `va_allergies.allergies[0].location` -> `Organization` resource `"name"`
  * `va_allergies.allergies[0].date_entered` -> `AdverseReaction` resource `"date"` in format: `"2012-09-17"`
  * `va_allergies.allergies[0].reaction` -> `AdverseReaction` resource `"symptom"`... `"code"` ... `"text"`
  * `va_allergies.allergies[0].allergy_type` ->
@@ -164,8 +164,8 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `self_medications.medications[0].frequency` -> not used
  * `self_medications.medications[0].start_date` -> `MedicationStatement` resource `"whenGiven"` ... `"start"`
  * `self_medications.medications[0].stop_date` -> `MedicationStatement` resource `"whenGiven"` ... `"end"`
- * `self_medications.medications[0].pharmacy_name` -> not used
- * `self_medications.medications[0].pharmacy_phone` -> not used
+ * `self_medications.medications[0].pharmacy_name` -> 
+ * `self_medications.medications[0].pharmacy_phone` -> 
  * `self_medications.medications[0].reason_for_taking` -> not used
  * `self_medications.medications[0].comments` -> not used
  * `va_problems.source` -> not used
@@ -173,15 +173,15 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_problems.sorted_by` -> not used
  * `va_problems.problems[0].problem` -> `Condition` resource `"coding"` ... `"code"` ... `"display"`
  * `va_problems.problems[0].date/time_entered` -> `Condition` resource `"dateAsserted"`
- * `va_problems.problems[0].location` -> not used
+ * `va_problems.problems[0].location` -> `Organization` resource `"name"`
  * `va_problems.problems[0].status` -> `Condition` resource `"status"`
- * `va_problems.problems[0].provider` -> not used
+ * `va_problems.problems[0].provider` ->
  * `va_problems.problems[0].comments[0]` -> not used
  * `va_admission_discharge.source` -> not used
  * `va_admission_discharge.last_updated` -> not used
  * `va_admission_discharge.sorted_by` -> not used
  * `va_admission_discharge.admindischarge[0].admission_date` -> `Encounter` resource `date` and `period` ... `start`
- * `va_admission_discharge.admindischarge[0].location` ->
+ * `va_admission_discharge.admindischarge[0].location` -> `Organization` resource `"name"`
  * `va_admission_discharge.admindischarge[0].admitting_physician` ->
  * `va_admission_discharge.admindischarge[0].discharge_date` -> `Encounter` resource `period` ... `end`
  * `va_admission_discharge.admindischarge[0].discharge_physician` ->
@@ -189,14 +189,14 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_notes.source` -> not used
  * `va_notes.last_updated` -> not used
  * `va_notes.sorted_by` -> not used
- * `va_notes.newnote` ->
- * `va_notes.notes[0].date_time` ->
- * `va_notes.notes[0].note_title` ->
- * `va_notes.notes[0].location` ->
- * `va_notes.notes[0].signed_by` ->
- * `va_notes.notes[0].co-signed_by` ->
- * `va_notes.notes[0].date/time_signed` ->
- * `va_notes.notes[0].raw_note[0]` ->
+ * `va_notes.newnote` -> not used
+ * `va_notes.notes[0].date_time` -> not used
+ * `va_notes.notes[0].note_title` -> not used
+ * `va_notes.notes[0].location` -> not used
+ * `va_notes.notes[0].signed_by` -> not used
+ * `va_notes.notes[0].co-signed_by` -> not used
+ * `va_notes.notes[0].date/time_signed` -> not used
+ * `va_notes.notes[0].raw_note[0]` -> not used
  * `va_immunizations.source` -> not used
  * `va_immunizations.last_updated` -> not used
  * `va_immunizations.sorted_by` -> not used
@@ -204,7 +204,7 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_immunizations.summary[0].date` -> not used
  * `va_immunizations.immunizations[0].immunization_name` -> `Immunization` resource `"vaccineType"` ... `"coding"` ... `"text"`
  * `va_immunizations.immunizations[0].date_received:` -> `Immunization` resource `"date"` in format `"2013-01-01"`
- * `va_immunizations.immunizations[0].location` -> not used
+ * `va_immunizations.immunizations[0].location` -> `Organization` resource `"name"`
  * `va_immunizations.immunizations[0].reaction` -> not used
  * `va_immunizations.immunizations[0].comments` -> not used
  * `va_immunizations.immunizations[0].reaction_key` -> not used
@@ -250,15 +250,15 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_vitals.vitals[0].vital_sign` -> `Observation` resource `"name"` ... `"text"`
  * `va_vitals.vitals[0].measurement` ->
  * `va_vitals.vitals[0].comments` -> not used
- * `va_vitals.vitals[0].location` ->
+ * `va_vitals.vitals[0].location` -> `Organization` resource `"name"`
  * `va_vitals.vitals[0].date/time_collected` -> `Observation` resource `"issued"`
  * `self_vitals.source` -> not used
- * `self_vitals.vitals[0].measurement_type` ->
- * `self_vitals.vitals[0].date` ->
- * `self_vitals.vitals[0].time` ->
+ * `self_vitals.vitals[0].measurement_type` -> `Observation` resource `"name"` ... `"text"`
+ * `self_vitals.vitals[0].date` -> `Observation` resource `"issued"`
+ * `self_vitals.vitals[0].time` -> `Observation` resource `"issued"`
  * `self_vitals.vitals[0].systolic` ->
  * `self_vitals.vitals[0].diastolic` ->
- * `self_vitals.vitals[0].comments[0]` ->
+ * `self_vitals.vitals[0].comments[0]` -> not used
  * `self_vitals.vitals[0].heart_rate` ->
  * `self_vitals.vitals[0].body_weight` ->
  * `self_vitals.vitals[0].measure` ->
@@ -268,5 +268,5 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `self_vitals.vitals[0].blood_sugar_count` ->
  * `self_vitals.vitals[0].inr_value` ->
  * `self_vitals.vitals[0].target_range` ->
- * `self_vitals.vitals[0].location` ->
+ * `self_vitals.vitals[0].location` -> `Organization` resource `"name"`
  * `self_vitals.vitals[0].provider` ->

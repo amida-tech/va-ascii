@@ -175,7 +175,7 @@ This file lists the intermediate object lowest level data sets (left) with their
  * `va_problems.problems[0].date/time_entered` -> `Condition` resource `"dateAsserted"`
  * `va_problems.problems[0].location` -> `Organization` resource `"name"`
  * `va_problems.problems[0].status` -> `Condition` resource `"status"`
- * `va_problems.problems[0].provider` ->
+ * `va_problems.problems[0].provider` -> `Practitioner` resource 
  * `va_problems.problems[0].comments[0]` -> not used
  * `va_admission_discharge.source` -> not used
  * `va_admission_discharge.last_updated` -> not used

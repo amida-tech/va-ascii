@@ -9,11 +9,11 @@
         "rel": "self",
         "href": ""
     }],
-    "updated": "",
+    "updated": "2015-09-11T14:44:16.083Z",
     "entry": [{
         "title": "Patient",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.082Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -129,7 +129,7 @@
     }, {
         "title": "Organization",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -619,9 +619,17 @@
             "name": "PORTLAND, OREGON VA MEDICAL CENTER"
         }]
     }, {
+        "title": "Practitioner",
+        "id": "",
+        "updated": "2015-09-11T14:44:16.083Z",
+        "author": [{
+            "name": "Amida-Tech DRE"
+        }],
+        "content": []
+    }, {
         "title": "Encounter",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -781,7 +789,7 @@
     }, {
         "title": "Allergy",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -789,7 +797,7 @@
     }, {
         "title": "Reaction",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -797,7 +805,7 @@
     }, {
         "title": "Substance",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -805,7 +813,7 @@
     }, {
         "title": "Medication",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -2157,7 +2165,7 @@
     }, {
         "title": "MedicationPrescription",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -5109,7 +5117,7 @@
     }, {
         "title": "MedicationStatement",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -5117,7 +5125,7 @@
     }, {
         "title": "Immunization",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -5235,7 +5243,7 @@
     }, {
         "title": "Condition",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -5603,7 +5611,7 @@
     }, {
         "title": "Observation",
         "id": "",
-        "updated": "",
+        "updated": "2015-09-11T14:44:16.083Z",
         "author": [{
             "name": "Amida-Tech DRE"
         }],
@@ -7168,6 +7176,8 @@
                 }
             }]
         }]
-    }]
+    }],
+    "type": "transaction",
+    "base": "http://localhost:8080/fhir/base"
 }
 ```
